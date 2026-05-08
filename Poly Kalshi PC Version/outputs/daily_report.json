@@ -1,0 +1,1191 @@
+{
+  "generated_at_utc": "2026-05-08T15:15:31.202476+00:00",
+  "settings": {
+    "data_api_base": "https://data-api.polymarket.com",
+    "gamma_api_base": "https://gamma-api.polymarket.com",
+    "top_n_traders": 20,
+    "leaderboard_category": "SPORTS",
+    "leaderboard_time_period": "ALL",
+    "leaderboard_order_by": "PNL",
+    "min_positions_per_market": 2,
+    "request_timeout_seconds": 20,
+    "sports_only_positions": true,
+    "strict_unanimous_only": true,
+    "consensus_material_opposition_min_usd": 0.0,
+    "consensus_hedge_max_opposing_ratio": 0.35,
+    "use_recent_activity_only": false,
+    "lookback_hours": 24,
+    "today_open_events_only": true,
+    "event_day_timezone": "America/New_York"
+  },
+  "top_traders_count": 20,
+  "failed_traders_count": 0,
+  "failed_traders": [],
+  "positions_count": 1074,
+  "sports_positions_count": 75,
+  "skipped_non_sports_positions": 999,
+  "mode": "today_open_events",
+  "traders": [
+    {
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "name": "kch123",
+      "pnl": 12471783.67698743,
+      "volume": 288356845.66699404,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "name": "RN1",
+      "pnl": 8506523.42316821,
+      "volume": 515187257.8461081,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "name": "swisstony",
+      "pnl": 7587962.668557933,
+      "volume": 735455668.258181,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+      "name": "KeyTransporter",
+      "pnl": 5711459.802519929,
+      "volume": 20086062.154324993,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "name": "GamblingIsAllYouNeed",
+      "pnl": 5011375.73155162,
+      "volume": 405313672.8207841,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "name": "gmanas",
+      "pnl": 4896587.371628346,
+      "volume": 520238786.85771275,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+      "name": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
+      "pnl": 4539244.694743155,
+      "volume": 59666376.45593102,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+      "name": "432614799197",
+      "pnl": 4526176.046413317,
+      "volume": 185485956.86208287,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+      "name": "beachboy4",
+      "pnl": 3889135.6783974925,
+      "volume": 217256184.23778197,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
+      "name": "reachingthesky",
+      "pnl": 3742635.156562068,
+      "volume": 13750266.834776,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x019782cab5d844f02bafb71f512758be78579f3c",
+      "name": "majorexploiter",
+      "pnl": 3668541.581104434,
+      "volume": 9413714.671942003,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x16b29c50f2439faf627209b2ac0c7bbddaa8a881",
+      "name": "SeriouslySirius",
+      "pnl": 3648171.8070388744,
+      "volume": 192646024.93522796,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0xee613b3fc183ee44f9da9c05f53e2da107e3debf",
+      "name": "sovereign2013",
+      "pnl": 3583998.14937419,
+      "volume": 399209095.7520788,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x14964aefa2cd7caff7878b3820a690a03c5aa429",
+      "name": "gmpm",
+      "pnl": 3432998.559014847,
+      "volume": 84491329.43379997,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+      "name": "DrPufferfish",
+      "pnl": 3417566.909300012,
+      "volume": 247581092.05934894,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x9495425feeb0c250accb89275c97587011b19a27",
+      "name": "LaBradfordSmith22",
+      "pnl": 3376843.1667461284,
+      "volume": 40876195.594472006,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x17db3fcd93ba12d38382a0cade24b200185c5f6d",
+      "name": "fengdubiying",
+      "pnl": 3167056.768515911,
+      "volume": 15750830.394724993,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0xbddf61af533ff524d27154e589d2d7a81510c684",
+      "name": "Countryside",
+      "pnl": 3048653.431032278,
+      "volume": 204360188.28994694,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x36a3f17401e395ef4cb1b7f42bcdb8ab8e15fafb",
+      "name": "gfjoigfsjoigsjoi",
+      "pnl": 2930573.3275762754,
+      "volume": 22894560.046664998,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029",
+      "name": "primm",
+      "pnl": 2673262.1587221543,
+      "volume": 32600190.720266994,
+      "win_rate": 0.0
+    }
+  ],
+  "consensus_bets": [
+    {
+      "market_slug": "wta-potapov-muchova-2026-05-08",
+      "market_title": "Internazionali BNL d'Italia: Anastasia Potapova vs Karolina Muchova",
+      "outcome": "anastasia potapova",
+      "traders_count": 3,
+      "opposed_traders_count": 0,
+      "unique_traders": [
+        "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+        "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+      ],
+      "total_size": 51031.7436,
+      "total_value": 51006.2276,
+      "weighted_avg_entry": 0.6953,
+      "score": 153018.6828,
+      "is_unanimous": true
+    },
+    {
+      "market_slug": "atp-seggerm-clarke-2026-05-08",
+      "market_title": "Francavilla: Ryan Seggerman vs Jay Clarke",
+      "outcome": "ryan seggerman",
+      "traders_count": 3,
+      "opposed_traders_count": 0,
+      "unique_traders": [
+        "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+        "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+      ],
+      "total_size": 37605.2337,
+      "total_value": 37586.431,
+      "weighted_avg_entry": 0.5035,
+      "score": 112759.293,
+      "is_unanimous": true
+    },
+    {
+      "market_slug": "atp-zandsch-kovacev-2026-05-08",
+      "market_title": "Internazionali BNL d'Italia: Botic van de Zandschulp vs Aleksandar Kovacevic",
+      "outcome": "botic van de zandschulp",
+      "traders_count": 3,
+      "opposed_traders_count": 0,
+      "unique_traders": [
+        "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+        "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+      ],
+      "total_size": 23837.7957,
+      "total_value": 23825.8767,
+      "weighted_avg_entry": 0.6019,
+      "score": 71477.6301,
+      "is_unanimous": true
+    },
+    {
+      "market_slug": "wta-keys-stearns-2026-05-08",
+      "market_title": "Internazionali BNL d'Italia: Madison Keys vs Peyton Stearns",
+      "outcome": "madison keys",
+      "traders_count": 3,
+      "opposed_traders_count": 0,
+      "unique_traders": [
+        "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+        "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+      ],
+      "total_size": 24435.6689,
+      "total_value": 21625.567,
+      "weighted_avg_entry": 0.411,
+      "score": 64876.701,
+      "is_unanimous": true
+    },
+    {
+      "market_slug": "fl1-rcl-nan-2026-05-08-rcl",
+      "market_title": "Will Racing Club de Lens win on 2026-05-08?",
+      "outcome": "yes",
+      "traders_count": 2,
+      "opposed_traders_count": 0,
+      "unique_traders": [
+        "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+      ],
+      "total_size": 53940.4006,
+      "total_value": 35870.3663,
+      "weighted_avg_entry": 0.6825,
+      "score": 71740.7326,
+      "is_unanimous": true
+    },
+    {
+      "market_slug": "fl1-rcl-nan-2026-05-08-nan",
+      "market_title": "Will FC Nantes win on 2026-05-08?",
+      "outcome": "no",
+      "traders_count": 2,
+      "opposed_traders_count": 0,
+      "unique_traders": [
+        "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+      ],
+      "total_size": 22604.27,
+      "total_value": 19326.6508,
+      "weighted_avg_entry": 0.8549,
+      "score": 38653.3016,
+      "is_unanimous": true
+    },
+    {
+      "market_slug": "atp-tien-dzumhur-2026-05-08",
+      "market_title": "Internazionali BNL d'Italia: Learner Tien vs Damir Dzumhur",
+      "outcome": "learner tien",
+      "traders_count": 2,
+      "opposed_traders_count": 0,
+      "unique_traders": [
+        "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+      ],
+      "total_size": 19490.4717,
+      "total_value": 15105.1155,
+      "weighted_avg_entry": 0.7149,
+      "score": 30210.231,
+      "is_unanimous": true
+    },
+    {
+      "market_slug": "bun-dor-ein-2026-05-08-ein",
+      "market_title": "Will Eintracht Frankfurt win on 2026-05-08?",
+      "outcome": "no",
+      "traders_count": 2,
+      "opposed_traders_count": 0,
+      "unique_traders": [
+        "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+      ],
+      "total_size": 6949.139,
+      "total_value": 5455.0741,
+      "weighted_avg_entry": 0.7856,
+      "score": 10910.1482,
+      "is_unanimous": true
+    }
+  ],
+  "consensus_bets_relaxed": [
+    {
+      "market_slug": "wta-potapov-muchova-2026-05-08",
+      "market_title": "Internazionali BNL d'Italia: Anastasia Potapova vs Karolina Muchova",
+      "outcome": "anastasia potapova",
+      "traders_count": 3,
+      "opposed_traders_count": 0,
+      "unique_traders": [
+        "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+        "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+      ],
+      "total_size": 51031.7436,
+      "total_value": 51006.2276,
+      "weighted_avg_entry": 0.6953,
+      "score": 153018.6828,
+      "is_unanimous": true
+    },
+    {
+      "market_slug": "atp-seggerm-clarke-2026-05-08",
+      "market_title": "Francavilla: Ryan Seggerman vs Jay Clarke",
+      "outcome": "ryan seggerman",
+      "traders_count": 3,
+      "opposed_traders_count": 0,
+      "unique_traders": [
+        "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+        "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+      ],
+      "total_size": 37605.2337,
+      "total_value": 37586.431,
+      "weighted_avg_entry": 0.5035,
+      "score": 112759.293,
+      "is_unanimous": true
+    },
+    {
+      "market_slug": "atp-zandsch-kovacev-2026-05-08",
+      "market_title": "Internazionali BNL d'Italia: Botic van de Zandschulp vs Aleksandar Kovacevic",
+      "outcome": "botic van de zandschulp",
+      "traders_count": 3,
+      "opposed_traders_count": 0,
+      "unique_traders": [
+        "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+        "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+      ],
+      "total_size": 23837.7957,
+      "total_value": 23825.8767,
+      "weighted_avg_entry": 0.6019,
+      "score": 71477.6301,
+      "is_unanimous": true
+    },
+    {
+      "market_slug": "wta-keys-stearns-2026-05-08",
+      "market_title": "Internazionali BNL d'Italia: Madison Keys vs Peyton Stearns",
+      "outcome": "madison keys",
+      "traders_count": 3,
+      "opposed_traders_count": 0,
+      "unique_traders": [
+        "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+        "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+      ],
+      "total_size": 24435.6689,
+      "total_value": 21625.567,
+      "weighted_avg_entry": 0.411,
+      "score": 64876.701,
+      "is_unanimous": true
+    },
+    {
+      "market_slug": "fl1-rcl-nan-2026-05-08-rcl",
+      "market_title": "Will Racing Club de Lens win on 2026-05-08?",
+      "outcome": "yes",
+      "traders_count": 2,
+      "opposed_traders_count": 0,
+      "unique_traders": [
+        "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+      ],
+      "total_size": 53940.4006,
+      "total_value": 35870.3663,
+      "weighted_avg_entry": 0.6825,
+      "score": 71740.7326,
+      "is_unanimous": true
+    },
+    {
+      "market_slug": "fl1-rcl-nan-2026-05-08-nan",
+      "market_title": "Will FC Nantes win on 2026-05-08?",
+      "outcome": "no",
+      "traders_count": 2,
+      "opposed_traders_count": 0,
+      "unique_traders": [
+        "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+      ],
+      "total_size": 22604.27,
+      "total_value": 19326.6508,
+      "weighted_avg_entry": 0.8549,
+      "score": 38653.3016,
+      "is_unanimous": true
+    },
+    {
+      "market_slug": "atp-tien-dzumhur-2026-05-08",
+      "market_title": "Internazionali BNL d'Italia: Learner Tien vs Damir Dzumhur",
+      "outcome": "learner tien",
+      "traders_count": 2,
+      "opposed_traders_count": 0,
+      "unique_traders": [
+        "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+      ],
+      "total_size": 19490.4717,
+      "total_value": 15105.1155,
+      "weighted_avg_entry": 0.7149,
+      "score": 30210.231,
+      "is_unanimous": true
+    },
+    {
+      "market_slug": "bun-dor-ein-2026-05-08-ein",
+      "market_title": "Will Eintracht Frankfurt win on 2026-05-08?",
+      "outcome": "no",
+      "traders_count": 2,
+      "opposed_traders_count": 0,
+      "unique_traders": [
+        "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+      ],
+      "total_size": 6949.139,
+      "total_value": 5455.0741,
+      "weighted_avg_entry": 0.7856,
+      "score": 10910.1482,
+      "is_unanimous": true
+    }
+  ],
+  "relaxed_opposition_threshold_usd": 500.0,
+  "sports_positions_today": [
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Counter-Strike: Bounty Hunters Esports vs Keyd - Map 1 Winner",
+      "market_slug": "cs2-bhe-keyd-2026-05-08-game1",
+      "outcome": "Bounty Hunters Esports",
+      "size": 1586.5718,
+      "current_value": 0.7932,
+      "average_price": 0.3541
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Francavilla: August Holmgren vs Max Schoenhaus",
+      "market_slug": "atp-holmgre-schoenh-2026-05-08",
+      "outcome": "Max Schoenhaus",
+      "size": 2303.7999,
+      "current_value": 921.5199,
+      "average_price": 0.4077
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Francavilla: August Holmgren vs Max Schoenhaus",
+      "market_slug": "atp-holmgre-schoenh-2026-05-08",
+      "outcome": "August Holmgren",
+      "size": 1494.0,
+      "current_value": 896.4,
+      "average_price": 0.67
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Francavilla: Ryan Seggerman vs Jay Clarke",
+      "market_slug": "atp-seggerm-clarke-2026-05-08",
+      "outcome": "Jay Clarke",
+      "size": 5771.0211,
+      "current_value": 2.8855,
+      "average_price": 0.3968
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Francavilla: Ryan Seggerman vs Jay Clarke",
+      "market_slug": "atp-seggerm-clarke-2026-05-08",
+      "outcome": "Ryan Seggerman",
+      "size": 2713.4343,
+      "current_value": 2712.0776,
+      "average_price": 0.4187
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Francavilla: Ryan Seggerman vs Jay Clarke",
+      "market_slug": "atp-seggerm-clarke-2026-05-08",
+      "outcome": "Ryan Seggerman",
+      "size": 23590.66,
+      "current_value": 23578.8646,
+      "average_price": 0.4681
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Francavilla: Ryan Seggerman vs Jay Clarke",
+      "market_slug": "atp-seggerm-clarke-2026-05-08",
+      "outcome": "Jay Clarke",
+      "size": 10802.8798,
+      "current_value": 5.4014,
+      "average_price": 0.4768
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Francavilla: Ryan Seggerman vs Jay Clarke",
+      "market_slug": "atp-seggerm-clarke-2026-05-08",
+      "outcome": "Ryan Seggerman",
+      "size": 11301.1394,
+      "current_value": 11295.4888,
+      "average_price": 0.5977
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Francavilla: Ryan Seggerman vs Jay Clarke",
+      "market_slug": "atp-seggerm-clarke-2026-05-08",
+      "outcome": "Jay Clarke",
+      "size": 4445.478,
+      "current_value": 2.2227,
+      "average_price": 0.5058
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Internazionali BNL d'Italia: Anastasia Potapova vs Karolina Muchova",
+      "market_slug": "wta-potapov-muchova-2026-05-08",
+      "outcome": "Anastasia Potapova",
+      "size": 5032.622,
+      "current_value": 5030.1056,
+      "average_price": 0.7356
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Internazionali BNL d'Italia: Anastasia Potapova vs Karolina Muchova",
+      "market_slug": "wta-potapov-muchova-2026-05-08",
+      "outcome": "Karolina Muchova",
+      "size": 5032.6153,
+      "current_value": 2.5163,
+      "average_price": 0.4147
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Internazionali BNL d'Italia: Anastasia Potapova vs Karolina Muchova",
+      "market_slug": "wta-potapov-muchova-2026-05-08",
+      "outcome": "Karolina Muchova",
+      "size": 24943.9879,
+      "current_value": 12.4719,
+      "average_price": 0.2852
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Internazionali BNL d'Italia: Anastasia Potapova vs Karolina Muchova",
+      "market_slug": "wta-potapov-muchova-2026-05-08",
+      "outcome": "Anastasia Potapova",
+      "size": 13718.6736,
+      "current_value": 13711.8142,
+      "average_price": 0.5944
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Internazionali BNL d'Italia: Anastasia Potapova vs Karolina Muchova",
+      "market_slug": "wta-potapov-muchova-2026-05-08",
+      "outcome": "Anastasia Potapova",
+      "size": 32280.448,
+      "current_value": 32264.3078,
+      "average_price": 0.7319
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Internazionali BNL d'Italia: Anastasia Potapova vs Karolina Muchova",
+      "market_slug": "wta-potapov-muchova-2026-05-08",
+      "outcome": "Karolina Muchova",
+      "size": 1508.24,
+      "current_value": 0.7541,
+      "average_price": 0.3533
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Internazionali BNL d'Italia: Botic van de Zandschulp vs Aleksandar Kovacevic",
+      "market_slug": "atp-zandsch-kovacev-2026-05-08",
+      "outcome": "Aleksandar Kovacevic",
+      "size": 4708.5792,
+      "current_value": 2.3542,
+      "average_price": 0.3646
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Internazionali BNL d'Italia: Botic van de Zandschulp vs Aleksandar Kovacevic",
+      "market_slug": "atp-zandsch-kovacev-2026-05-08",
+      "outcome": "Botic van de Zandschulp",
+      "size": 1161.6477,
+      "current_value": 1161.0669,
+      "average_price": 0.6008
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Internazionali BNL d'Italia: Botic van de Zandschulp vs Aleksandar Kovacevic",
+      "market_slug": "atp-zandsch-kovacev-2026-05-08",
+      "outcome": "Aleksandar Kovacevic",
+      "size": 32527.0212,
+      "current_value": 16.2635,
+      "average_price": 0.3524
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Internazionali BNL d'Italia: Botic van de Zandschulp vs Aleksandar Kovacevic",
+      "market_slug": "atp-zandsch-kovacev-2026-05-08",
+      "outcome": "Botic van de Zandschulp",
+      "size": 21379.728,
+      "current_value": 21369.0381,
+      "average_price": 0.5939
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Internazionali BNL d'Italia: Botic van de Zandschulp vs Aleksandar Kovacevic",
+      "market_slug": "atp-zandsch-kovacev-2026-05-08",
+      "outcome": "Aleksandar Kovacevic",
+      "size": 1992.7704,
+      "current_value": 0.9963,
+      "average_price": 0.3068
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Internazionali BNL d'Italia: Botic van de Zandschulp vs Aleksandar Kovacevic",
+      "market_slug": "atp-zandsch-kovacev-2026-05-08",
+      "outcome": "Botic van de Zandschulp",
+      "size": 1296.42,
+      "current_value": 1295.7717,
+      "average_price": 0.7354
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Internazionali BNL d'Italia: Casper Ruud vs Zachary Svajda",
+      "market_slug": "atp-ruud-svajda-2026-05-08",
+      "outcome": "Casper Ruud",
+      "size": 12743.57,
+      "current_value": 12737.1982,
+      "average_price": 0.9842
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Internazionali BNL d'Italia: Daniel Altmaier vs Alexander Zverev",
+      "market_slug": "atp-altmaie-zverev-2026-05-08",
+      "outcome": "Alexander Zverev",
+      "size": 10641.5971,
+      "current_value": 10199.9708,
+      "average_price": 0.8882
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Internazionali BNL d'Italia: Daniel Altmaier vs Alexander Zverev",
+      "market_slug": "atp-altmaie-zverev-2026-05-08",
+      "outcome": "Daniel Altmaier",
+      "size": 6389.0207,
+      "current_value": 265.1443,
+      "average_price": 0.0927
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Internazionali BNL d'Italia: Dino Prizmic vs Novak Djokovic",
+      "market_slug": "atp-prizmic-djokovi-2026-05-08",
+      "outcome": "Dino Prizmic",
+      "size": 1631.165,
+      "current_value": 530.1286,
+      "average_price": 0.3361
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Internazionali BNL d'Italia: Jan-Lennard Struff vs Jiri Lehecka",
+      "market_slug": "atp-struff-lehecka-2026-05-08",
+      "outcome": "Jiri Lehecka",
+      "size": 5941.3403,
+      "current_value": 5938.3696,
+      "average_price": 0.9198
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Internazionali BNL d'Italia: Jessica Pegula vs Zeynep Sonmez",
+      "market_slug": "wta-pegula-sonmez-2026-05-07",
+      "outcome": "Zeynep Sonmez",
+      "size": 3254.2214,
+      "current_value": 244.0666,
+      "average_price": 0.1216
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Internazionali BNL d'Italia: Learner Tien vs Damir Dzumhur",
+      "market_slug": "atp-tien-dzumhur-2026-05-08",
+      "outcome": "Learner Tien",
+      "size": 3512.9217,
+      "current_value": 2722.5143,
+      "average_price": 0.7163
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Internazionali BNL d'Italia: Learner Tien vs Damir Dzumhur",
+      "market_slug": "atp-tien-dzumhur-2026-05-08",
+      "outcome": "Damir Dzumhur",
+      "size": 1841.156,
+      "current_value": 414.2601,
+      "average_price": 0.3251
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Internazionali BNL d'Italia: Learner Tien vs Damir Dzumhur",
+      "market_slug": "atp-tien-dzumhur-2026-05-08",
+      "outcome": "Learner Tien",
+      "size": 15977.55,
+      "current_value": 12382.6012,
+      "average_price": 0.7146
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Internazionali BNL d'Italia: Learner Tien vs Damir Dzumhur",
+      "market_slug": "atp-tien-dzumhur-2026-05-08",
+      "outcome": "Damir Dzumhur",
+      "size": 2898.7281,
+      "current_value": 652.2138,
+      "average_price": 0.4347
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Internazionali BNL d'Italia: Liudmila Samsonova vs Ann Li",
+      "market_slug": "wta-samsono-annli-2026-05-07",
+      "outcome": "Liudmila Samsonova",
+      "size": 2813.031,
+      "current_value": 2813.031,
+      "average_price": 0.8582
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Internazionali BNL d'Italia: Liudmila Samsonova vs Ann Li",
+      "market_slug": "wta-samsono-annli-2026-05-07",
+      "outcome": "Ann Li",
+      "size": 775.174,
+      "current_value": 0.0,
+      "average_price": 0.05
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Internazionali BNL d'Italia: Madison Keys vs Peyton Stearns",
+      "market_slug": "wta-keys-stearns-2026-05-08",
+      "outcome": "Peyton Stearns",
+      "size": 3534.7125,
+      "current_value": 406.4919,
+      "average_price": 0.6337
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Internazionali BNL d'Italia: Madison Keys vs Peyton Stearns",
+      "market_slug": "wta-keys-stearns-2026-05-08",
+      "outcome": "Madison Keys",
+      "size": 3162.1809,
+      "current_value": 2798.5301,
+      "average_price": 0.3324
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Internazionali BNL d'Italia: Madison Keys vs Peyton Stearns",
+      "market_slug": "wta-keys-stearns-2026-05-08",
+      "outcome": "Madison Keys",
+      "size": 17655.448,
+      "current_value": 15625.0715,
+      "average_price": 0.4126
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Internazionali BNL d'Italia: Madison Keys vs Peyton Stearns",
+      "market_slug": "wta-keys-stearns-2026-05-08",
+      "outcome": "Peyton Stearns",
+      "size": 12552.6394,
+      "current_value": 1443.5535,
+      "average_price": 0.5699
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Internazionali BNL d'Italia: Madison Keys vs Peyton Stearns",
+      "market_slug": "wta-keys-stearns-2026-05-08",
+      "outcome": "Peyton Stearns",
+      "size": 6298.6387,
+      "current_value": 724.3434,
+      "average_price": 0.6327
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Internazionali BNL d'Italia: Madison Keys vs Peyton Stearns",
+      "market_slug": "wta-keys-stearns-2026-05-08",
+      "outcome": "Madison Keys",
+      "size": 3618.04,
+      "current_value": 3201.9654,
+      "average_price": 0.4722
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Internazionali BNL d'Italia: Naomi Osaka vs Eva Lys",
+      "market_slug": "wta-osaka-lys-2026-05-08",
+      "outcome": "Eva Lys",
+      "size": 4457.1821,
+      "current_value": 906.5908,
+      "average_price": 0.214
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Internazionali BNL d'Italia: Naomi Osaka vs Eva Lys",
+      "market_slug": "wta-osaka-lys-2026-05-08",
+      "outcome": "Naomi Osaka",
+      "size": 1802.02,
+      "current_value": 1435.3089,
+      "average_price": 0.7925
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Internazionali BNL d'Italia: Ugo Humbert vs Vit Kopriva",
+      "market_slug": "atp-humbert-kopriva-2026-05-08",
+      "outcome": "Vit Kopriva",
+      "size": 1194.0,
+      "current_value": 794.01,
+      "average_price": 0.6
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Internazionali BNL d'Italia: Yannick Hanfmann vs Luciano Darderi",
+      "market_slug": "atp-hanfman-darderi-2026-05-08",
+      "outcome": "Yannick Hanfmann",
+      "size": 2073.4699,
+      "current_value": 798.2859,
+      "average_price": 0.3799
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Spread: Miami Marlins (-1.5)",
+      "market_slug": "mlb-wsh-mia-2026-05-08-spread-home-1pt5",
+      "outcome": "Miami Marlins",
+      "size": 1620.0,
+      "current_value": 599.4,
+      "average_price": 0.36
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will AC Monza win on 2026-05-08?",
+      "market_slug": "itsb-mon-emp-2026-05-08-mon",
+      "outcome": "Yes",
+      "size": 7106.2544,
+      "current_value": 4014.3231,
+      "average_price": 0.55
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Will BV Borussia 09 Dortmund vs. Eintracht Frankfurt end in a draw?",
+      "market_slug": "bun-dor-ein-2026-05-08-draw",
+      "outcome": "Yes",
+      "size": 3276.95,
+      "current_value": 704.5442,
+      "average_price": 0.21
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Will BV Borussia 09 Dortmund win on 2026-05-08?",
+      "market_slug": "bun-dor-ein-2026-05-08-dor",
+      "outcome": "No",
+      "size": 8350.252,
+      "current_value": 3632.3596,
+      "average_price": 0.3765
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Calcio Padova win on 2026-05-08?",
+      "market_slug": "itsb-ces-pad-2026-05-08-pad",
+      "outcome": "No",
+      "size": 1630.9382,
+      "current_value": 1378.1428,
+      "average_price": 0.83
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Carrarese Calcio win on 2026-05-08?",
+      "market_slug": "itsb-ent-car-2026-05-08-car",
+      "outcome": "No",
+      "size": 3236.83,
+      "current_value": 2605.6481,
+      "average_price": 0.8099
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Cesena FC vs. Calcio Padova end in a draw?",
+      "market_slug": "itsb-ces-pad-2026-05-08-draw",
+      "outcome": "No",
+      "size": 3206.0952,
+      "current_value": 2516.7847,
+      "average_price": 0.79
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Cesena FC win on 2026-05-08?",
+      "market_slug": "itsb-ces-pad-2026-05-08-ces",
+      "outcome": "Yes",
+      "size": 2969.9905,
+      "current_value": 1915.6438,
+      "average_price": 0.62
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Delfino Pescara 1936 win on 2026-05-08?",
+      "market_slug": "itsb-pes-spe-2026-05-08-pes",
+      "outcome": "No",
+      "size": 996.88,
+      "current_value": 563.1375,
+      "average_price": 0.55
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Eintracht Frankfurt win on 2026-05-08?",
+      "market_slug": "bun-dor-ein-2026-05-08-ein",
+      "outcome": "No",
+      "size": 3290.139,
+      "current_value": 2582.7591,
+      "average_price": 0.78
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Will Eintracht Frankfurt win on 2026-05-08?",
+      "market_slug": "bun-dor-ein-2026-05-08-ein",
+      "outcome": "No",
+      "size": 3659.0,
+      "current_value": 2872.315,
+      "average_price": 0.7906
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Will Eintracht Frankfurt win on 2026-05-08?",
+      "market_slug": "bun-dor-ein-2026-05-08-ein",
+      "outcome": "Yes",
+      "size": 2748.59,
+      "current_value": 590.9468,
+      "average_price": 0.17
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will FC Nantes win on 2026-05-08?",
+      "market_slug": "fl1-rcl-nan-2026-05-08-nan",
+      "outcome": "No",
+      "size": 18400.0,
+      "current_value": 15732.0,
+      "average_price": 0.855
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Will FC Nantes win on 2026-05-08?",
+      "market_slug": "fl1-rcl-nan-2026-05-08-nan",
+      "outcome": "No",
+      "size": 4204.27,
+      "current_value": 3594.6508,
+      "average_price": 0.8546
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will FC S\u00fcdtirol win on 2026-05-08?",
+      "market_slug": "itsb-sud-sta-2026-05-08-sud",
+      "outcome": "No",
+      "size": 13440.18,
+      "current_value": 5712.0765,
+      "average_price": 0.3846
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Modena FC 2018 win on 2026-05-08?",
+      "market_slug": "itsb-ave-mod-2026-05-08-mod",
+      "outcome": "No",
+      "size": 3562.8137,
+      "current_value": 3081.8338,
+      "average_price": 0.8379
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Will Petrojet SC win on 2026-05-08?",
+      "market_slug": "egy1-pes-wds-2026-05-08-pes",
+      "outcome": "No",
+      "size": 1396.8822,
+      "current_value": 1089.5681,
+      "average_price": 0.6343
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Racing Club de Lens win on 2026-05-08?",
+      "market_slug": "fl1-rcl-nan-2026-05-08-rcl",
+      "outcome": "Yes",
+      "size": 47929.8906,
+      "current_value": 31873.3772,
+      "average_price": 0.6833
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Will Racing Club de Lens win on 2026-05-08?",
+      "market_slug": "fl1-rcl-nan-2026-05-08-rcl",
+      "outcome": "Yes",
+      "size": 6010.51,
+      "current_value": 3996.9891,
+      "average_price": 0.676
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will RC Deportivo La Coru\u00f1a win on 2026-05-08?",
+      "market_slug": "es2-cad-dep-2026-05-08-dep",
+      "outcome": "No",
+      "size": 2143.3867,
+      "current_value": 1082.4102,
+      "average_price": 0.5085
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will SS Juve Stabia win on 2026-05-08?",
+      "market_slug": "itsb-sud-sta-2026-05-08-sta",
+      "outcome": "No",
+      "size": 3385.0,
+      "current_value": 2826.475,
+      "average_price": 0.84
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will SSC Bari win on 2026-05-08?",
+      "market_slug": "itsb-cat-bar-2026-05-08-bar",
+      "outcome": "No",
+      "size": 5946.0117,
+      "current_value": 3597.3371,
+      "average_price": 0.5751
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Will Torino FC vs. US Sassuolo Calcio end in a draw?",
+      "market_slug": "sea-tor-sas-2026-05-08-draw",
+      "outcome": "Yes",
+      "size": 5516.4573,
+      "current_value": 1627.3549,
+      "average_price": 0.29
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Torino FC win on 2026-05-08?",
+      "market_slug": "sea-tor-sas-2026-05-08-tor",
+      "outcome": "Yes",
+      "size": 2651.6182,
+      "current_value": 941.3244,
+      "average_price": 0.35
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will US Avellino 1912 vs. Modena FC 2018 end in a draw?",
+      "market_slug": "itsb-ave-mod-2026-05-08-draw",
+      "outcome": "No",
+      "size": 3166.5172,
+      "current_value": 2422.3856,
+      "average_price": 0.7489
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will US Avellino 1912 win on 2026-05-08?",
+      "market_slug": "itsb-ave-mod-2026-05-08-ave",
+      "outcome": "No",
+      "size": 6345.0,
+      "current_value": 2315.9249,
+      "average_price": 0.3649
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will US Catanzaro 1929 vs. SSC Bari end in a draw?",
+      "market_slug": "itsb-cat-bar-2026-05-08-draw",
+      "outcome": "No",
+      "size": 3271.2054,
+      "current_value": 2273.1606,
+      "average_price": 0.6992
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will US Catanzaro 1929 win on 2026-05-08?",
+      "market_slug": "itsb-cat-bar-2026-05-08-cat",
+      "outcome": "Yes",
+      "size": 3339.0,
+      "current_value": 985.005,
+      "average_price": 0.3
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Will US Sassuolo Calcio win on 2026-05-08?",
+      "market_slug": "sea-tor-sas-2026-05-08-sas",
+      "outcome": "Yes",
+      "size": 2107.8485,
+      "current_value": 726.9969,
+      "average_price": 0.3148
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Venezia FC win on 2026-05-08?",
+      "market_slug": "itsb-ven-pal-2026-05-08-ven",
+      "outcome": "No",
+      "size": 3111.0,
+      "current_value": 1197.735,
+      "average_price": 0.4
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Will Wadi Degla SC win on 2026-05-08?",
+      "market_slug": "egy1-pes-wds-2026-05-08-wds",
+      "outcome": "No",
+      "size": 2038.4969,
+      "current_value": 1233.2906,
+      "average_price": 0.5994
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Zalgiris Kaunas vs. Fenerbahce",
+      "market_slug": "euroleague-kaunas-fenerbah-2026-05-08",
+      "outcome": "Zalgiris Kaunas",
+      "size": 2256.6435,
+      "current_value": 1162.1714,
+      "average_price": 0.5037
+    }
+  ]
+}
