@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Polymarket Large Bet Plays</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+    <script>
+      window.COLD_START = {{ "true" if cold_start else "false" }};
+    </script>
+    <script defer src="{{ url_for('static', filename='app.js') }}"></script>
+  </head>
+  <body>
+    <div id="loading-overlay" class="loading-overlay" aria-hidden="true">
+      <div class="loading-card">
+        <div class="spinner" aria-hidden="true"></div>
+        <div class="loading-title">Loading & refreshing data…</div>
+        <div class="loading-subtitle muted">This can take a minute.</div>
+      </div>
+    </div>
+
+    {% macro large_bet_row(play, row_num) %}
+              <tr class="large-bet-row">
+                <td>{{ row_num }}</td>
+                <td>{{ play.market_title }}</td>
+                <td><code>{{ play.outcome }}</code></td>
+                <td>
+                  <details class="traders-details">
+                    <summary>{{ play.traders_count }}/{{ report.top_traders_count }}</summary>
+                    <ul>
+                      {% for pos in play.supporting_positions %}
+                      <li>{{ pos.trader_name }} — ${{ "{:,.2f}".format(pos.current_value) }} (size {{ "{:,.2f}".format(pos.size) }})</li>
+                      {% endfor %}
+                    </ul>
+                  </details>
+                </td>
+                <td>
+                  {% set small_ops = play.small_opposing_interest_positions or [] %}
+                  {% if play.opposed_traders_count or (small_ops | length) %}
+                  <span class="opposed-hover" tabindex="0">
+                    {{ play.opposed_traders_count if play.opposed_traders_count else (small_ops | length) }}
+                    <span class="opposed-tooltip" role="tooltip">
+                      {% if play.opposing_positions and (play.opposed_traders_count | int) > 0 %}
+                      <span class="opposed-tooltip-title">Qualifying opposing</span>
+                      {% for opp in play.opposing_positions %}
+                      <span class="opposed-tooltip-line">{{ opp.trader_name }} — <code>{{ opp.outcome }}</code> ${{ "{:,.2f}".format(opp.current_value) }}</span>
+                      {% endfor %}
+                      {% endif %}
+
+                      {% if small_ops | length > 0 %}
+                      <span class="opposed-tooltip-title">Small opposing interest</span>
+                      {% for opp in small_ops %}
+                      <span class="opposed-tooltip-line">{{ opp.trader_name }} — <code>{{ opp.outcome }}</code> ${{ "{:,.2f}".format(opp.current_value) }}</span>
+                      {% endfor %}
+                      {% endif %}
+                    </span>
+                  </span>
+                  {% else %}
+                  0
+                  {% endif %}
+                </td>
+                <td>${{ "{:,.2f}".format(play.showcased_value) }}</td>
+                <td>{{ "{:,.2f}".format(play.showcased_size) }}</td>
+                <td>{{ "{:.4f}".format(play.weighted_avg_entry) }}</td>
+                <td>
+                  {% if play.is_consensus %}
+                    <span class="pill unanimous">CONSENSUS</span>
+                  {% else %}
+                    <span class="pill non-consensus">NON CONSENSUS</span>
+                  {% endif %}
+                </td>
+                <td>
+                  <a href="https://polymarket.com/event/{{ play.market_slug }}" target="_blank" rel="noopener noreferrer">
+                    View market
+                  </a>
+                </td>
+              </tr>
+    {% endmacro %}
+    <main class="container">
+      <h1>Polymarket Large Bet Plays</h1>
+      <p>
+        <button id="refresh-data-btn" type="button">Refresh data now</button>
+        <span id="refresh-status" class="muted"></span>
+      </p>
+      <p class="muted">
+        Generated: {{ report.generated_at_utc or "No report yet" }}
+      </p>
+      <p class="muted">
+        Auto-refresh: fetches new data every 10 minutes (same as “Refresh data now”).
+      </p>
+      <p class="muted">
+        Rule: top-trader position ≥ <strong>${{ "{:,.0f}".format(large_bet_min_usd) }}</strong> and
+        qualifying side metric ≤ <strong>{{ large_bet_max_ratio }}×</strong> the other side's largest qualifying top-trader
+        metric (basis: <strong>{{ large_bet_ratio_basis | upper }}</strong>). Showcasing priority:
+        #qualifying betters, then largest qualifying bet in the selected basis; <strong>NON CONSENSUS</strong> when the other
+        side also has a qualifying top-trader bet (hover Opposed for details).
+      </p>
+      
+      <section class="config-section">
+        <div class="card">
+          <h3>Large Bet Play Filters</h3>
+          <div class="config-grid">
+            <label for="large-bet-min-usd">Min USD threshold</label>
+            <input
+              id="large-bet-min-usd"
+              type="number"
+              step="500"
+              min="0"
+              value="{{ large_bet_min_usd }}"
+            />
+
+            <label for="large-bet-max-multiplier">Max opposing multiplier</label>
+            <input
+              id="large-bet-max-multiplier"
+              type="number"
+              step="0.1"
+              min="0"
+              value="{{ large_bet_max_ratio }}"
+            />
+
+            <label for="large-bet-ratio-basis">Comparison basis</label>
+            <select id="large-bet-ratio-basis">
+              <option value="usd" {% if large_bet_ratio_basis == "usd" %}selected{% endif %}>USD</option>
+              <option value="shares" {% if large_bet_ratio_basis == "shares" %}selected{% endif %}>Shares</option>
+            </select>
+          </div>
+
+          <div class="config-actions">
+            <button id="save-play-filters-btn" type="button">Save</button>
+            <span id="save-play-filters-status" class="muted"></span>
+          </div>
+          <p class="muted" style="margin: 8px 0 0; font-size: 12px;">
+            Saved filters apply to the next data refresh (Refresh data now / auto-refresh).
+          </p>
+        </div>
+      </section>
+
+      <p class="muted">
+        Source mode: {{ report.mode or "positions_snapshot" }}
+        {% if report.mode == "today_open_events" %}(current open positions on sports events dated today in {{ report.settings.get("event_day_timezone", "America/New_York") }}){% endif %}
+        {% if report.mode == "recent_activity" %}(last {{ report.settings.lookback_hours }}h BUY trades, open sports events only){% endif %}
+      </p>
+
+      <section class="stats stats-flex">
+        <div class="card stat-card">
+          <h3>Top Traders</h3>
+          <p class="stat-card-value">{{ report.top_traders_count }}</p>
+          <p class="stat-card-foot muted" aria-hidden="true">&nbsp;</p>
+        </div>
+        <div class="card stat-card">
+          <h3>Positions</h3>
+          <p class="stat-card-value">{{ report.positions_count }}</p>
+          <p class="stat-card-foot muted" aria-hidden="true">&nbsp;</p>
+        </div>
+        <div class="card stat-card">
+          <h3>Sports Positions</h3>
+          <p class="stat-card-value">{{ report.sports_positions_count or 0 }}</p>
+          <p class="stat-card-foot muted" aria-hidden="true">&nbsp;</p>
+        </div>
+        <div class="card stat-card">
+          <h3>Large Bet Plays</h3>
+          <p class="stat-card-value">{{ plays | length }}</p>
+          <p class="stat-card-foot muted" aria-hidden="true">&nbsp;</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Large Bet Plays (live)</h2>
+        {% if live_section_empty %}
+        <p>No qualifying plays yet. Run <code>PYTHONPATH=src python run_daily.py</code> or use Refresh data now.</p>
+        {% else %}
+        <div class="table-wrap plays-live-table" id="plays-live-table">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Market</th>
+                <th>Outcome</th>
+                <th>Traders</th>
+                <th>Opposed</th>
+                <th>Showcased Value ($)</th>
+                <th>Showcased Size</th>
+                <th>Avg Entry</th>
+                <th>Status</th>
+                <th>Open</th>
+              </tr>
+            </thead>
+            <tbody id="plays-main-tbody">
+              {% for play in plays %}
+              {{ large_bet_row(play, loop.index) }}
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        {% endif %}
+      </section>
+
+      <section class="history-section">
+        <h2>Today's plays history ({{ event_day_timezone }}, {{ history_date_local }})</h2>
+        <p class="muted">
+          Each refresh appends a snapshot of that run's large bet plays for the calendar day in <code>{{ event_day_timezone }}</code>.
+        </p>
+        {% if plays_history_today %}
+        <div class="history-list">
+          {% for snap in plays_history_today %}
+          <details class="history-snapshot" {% if loop.first %}open{% endif %}>
+            <summary class="history-summary">
+              <span class="history-time">{{ snap.generated_at_utc }}</span>
+              <span class="muted">{{ snap.large_bet_plays | length }} play{% if snap.large_bet_plays | length != 1 %}s{% endif %}</span>
+              {% if snap.mode %}<span class="muted">· {{ snap.mode }}</span>{% endif %}
+            </summary>
+            {% if snap.large_bet_plays %}
+            <div class="table-wrap history-table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Market</th>
+                    <th>Outcome</th>
+                    <th>Traders</th>
+                    <th>Status</th>
+                    <th>Open</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for play in snap.large_bet_plays %}
+                  <tr>
+                    <td>{{ loop.index }}</td>
+                    <td>{{ play.market_title }}</td>
+                    <td><code>{{ play.outcome }}</code></td>
+                    <td>
+                      <details class="traders-details">
+                        <summary>{{ play.traders_count }}/{{ snap.top_traders_count or report.top_traders_count }}</summary>
+                        <ul>
+                          {% for pos in play.supporting_positions %}
+                          <li>{{ pos.trader_name }} — ${{ "{:,.2f}".format(pos.current_value) }}</li>
+                          {% endfor %}
+                        </ul>
+                      </details>
+                    </td>
+                    <td>
+                      {% if play.is_consensus %}
+                        <span class="pill unanimous">CONSENSUS</span>
+                      {% else %}
+                        <span class="pill non-consensus">NON CONSENSUS</span>
+                      {% endif %}
+                    </td>
+                    <td>
+                      <a href="https://polymarket.com/event/{{ play.market_slug }}" target="_blank" rel="noopener noreferrer">View</a>
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+            {% else %}
+            <p class="muted history-empty-snap">No qualifying plays at this snapshot.</p>
+            {% endif %}
+          </details>
+          {% endfor %}
+        </div>
+        {% else %}
+        <p class="muted">No history snapshots for this local day yet. Run a refresh once; each run adds a row to <code>outputs/consensus_history_{{ history_date_local }}.jsonl</code>.</p>
+        {% endif %}
+      </section>
+    </main>
+  </body>
+</html>

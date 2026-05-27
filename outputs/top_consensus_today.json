@@ -1,0 +1,340 @@
+[
+  {
+    "market_slug": "wta-teichma-frech-2026-05-27",
+    "market_title": "Roland Garros WTA: Jil Teichmann vs Magdalena Frech",
+    "outcome": "Jil Teichmann",
+    "outcome_key": "jil teichmann",
+    "showcased_value": 135339.11,
+    "showcased_size": 135406.8086,
+    "weighted_avg_entry": 0.4249,
+    "traders_count": 3,
+    "unique_traders": [
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+    ],
+    "supporting_positions": [
+      {
+        "trader_address": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+        "outcome": "Jil Teichmann",
+        "current_value": 92945.06,
+        "size": 92991.5574,
+        "average_price": 0.38,
+        "trader_name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465"
+      },
+      {
+        "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+        "outcome": "Jil Teichmann",
+        "current_value": 23486.36,
+        "size": 23498.1062,
+        "average_price": 0.4467,
+        "trader_name": "RN1"
+      },
+      {
+        "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "outcome": "Jil Teichmann",
+        "current_value": 18907.69,
+        "size": 18917.145,
+        "average_price": 0.6187,
+        "trader_name": "swisstony"
+      }
+    ],
+    "opposing_positions": [],
+    "opposed_traders_count": 0,
+    "small_opposing_interest_positions": [],
+    "is_consensus": true,
+    "trader_names": [
+      "RN1",
+      "swisstony",
+      "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465"
+    ]
+  },
+  {
+    "market_slug": "atp-duckwor-jodar-2026-05-27",
+    "market_title": "Roland Garros ATP: James Duckworth vs Rafael Jodar",
+    "outcome": "Rafael Jodar",
+    "outcome_key": "rafael jodar",
+    "showcased_value": 38323.3,
+    "showcased_size": 38342.4761,
+    "weighted_avg_entry": 0.8983,
+    "traders_count": 1,
+    "unique_traders": [
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+    ],
+    "supporting_positions": [
+      {
+        "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+        "outcome": "Rafael Jodar",
+        "current_value": 38323.3,
+        "size": 38342.4761,
+        "average_price": 0.8983,
+        "trader_name": "RN1"
+      }
+    ],
+    "opposing_positions": [],
+    "opposed_traders_count": 0,
+    "small_opposing_interest_positions": [],
+    "is_consensus": true,
+    "trader_names": [
+      "RN1"
+    ]
+  },
+  {
+    "market_slug": "mlb-stl-mil-2026-05-27",
+    "market_title": "St. Louis Cardinals vs. Milwaukee Brewers",
+    "outcome": "St. Louis Cardinals",
+    "outcome_key": "st. louis cardinals",
+    "showcased_value": 36712.83,
+    "showcased_size": 60682.3613,
+    "weighted_avg_entry": 0.4137,
+    "traders_count": 1,
+    "unique_traders": [
+      "0x9495425feeb0c250accb89275c97587011b19a27"
+    ],
+    "supporting_positions": [
+      {
+        "trader_address": "0x9495425feeb0c250accb89275c97587011b19a27",
+        "outcome": "St. Louis Cardinals",
+        "current_value": 36712.83,
+        "size": 60682.3613,
+        "average_price": 0.4137,
+        "trader_name": "LaBradfordSmith22"
+      }
+    ],
+    "opposing_positions": [],
+    "opposed_traders_count": 0,
+    "small_opposing_interest_positions": [],
+    "is_consensus": true,
+    "trader_names": [
+      "LaBradfordSmith22"
+    ]
+  },
+  {
+    "market_slug": "atp-basavar-michels-2026-05-27",
+    "market_title": "Roland Garros ATP: Nishesh Basavareddy vs Alex Michelsen",
+    "outcome": "Alex Michelsen",
+    "outcome_key": "alex michelsen",
+    "showcased_value": 33203.28,
+    "showcased_size": 33219.8937,
+    "weighted_avg_entry": 0.7373,
+    "traders_count": 1,
+    "unique_traders": [
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+    ],
+    "supporting_positions": [
+      {
+        "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+        "outcome": "Alex Michelsen",
+        "current_value": 33203.28,
+        "size": 33219.8937,
+        "average_price": 0.7373,
+        "trader_name": "RN1"
+      }
+    ],
+    "opposing_positions": [],
+    "opposed_traders_count": 0,
+    "small_opposing_interest_positions": [],
+    "is_consensus": true,
+    "trader_names": [
+      "RN1"
+    ]
+  },
+  {
+    "market_slug": "atp-machac-zverev-2026-05-27",
+    "market_title": "Roland Garros ATP: Tomas Machac vs Alexander Zverev",
+    "outcome": "Alexander Zverev",
+    "outcome_key": "alexander zverev",
+    "showcased_value": 32310.79,
+    "showcased_size": 34191.31,
+    "weighted_avg_entry": 0.87,
+    "traders_count": 1,
+    "unique_traders": [
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+    ],
+    "supporting_positions": [
+      {
+        "trader_address": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+        "outcome": "Alexander Zverev",
+        "current_value": 32310.79,
+        "size": 34191.31,
+        "average_price": 0.87,
+        "trader_name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465"
+      }
+    ],
+    "opposing_positions": [],
+    "opposed_traders_count": 0,
+    "small_opposing_interest_positions": [],
+    "is_consensus": true,
+    "trader_names": [
+      "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465"
+    ]
+  },
+  {
+    "market_slug": "atp-ruud-medjedo-2026-05-27",
+    "market_title": "Roland Garros ATP: Casper Ruud vs Hamad Medjedovic",
+    "outcome": "Hamad Medjedovic",
+    "outcome_key": "hamad medjedovic",
+    "showcased_value": 31386.42,
+    "showcased_size": 110166.43,
+    "weighted_avg_entry": 0.287,
+    "traders_count": 1,
+    "unique_traders": [
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+    ],
+    "supporting_positions": [
+      {
+        "trader_address": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+        "outcome": "Hamad Medjedovic",
+        "current_value": 31386.42,
+        "size": 110166.43,
+        "average_price": 0.287,
+        "trader_name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465"
+      }
+    ],
+    "opposing_positions": [],
+    "opposed_traders_count": 0,
+    "small_opposing_interest_positions": [],
+    "is_consensus": true,
+    "trader_names": [
+      "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465"
+    ]
+  },
+  {
+    "market_slug": "wta-paolini-sierra-2026-05-27",
+    "market_title": "Roland Garros WTA: Jasmine Paolini vs Solana Sierra",
+    "outcome": "Solana Sierra",
+    "outcome_key": "solana sierra",
+    "showcased_value": 25400.04,
+    "showcased_size": 25412.7484,
+    "weighted_avg_entry": 0.5937,
+    "traders_count": 1,
+    "unique_traders": [
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+    ],
+    "supporting_positions": [
+      {
+        "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+        "outcome": "Solana Sierra",
+        "current_value": 25400.04,
+        "size": 25412.7484,
+        "average_price": 0.5937,
+        "trader_name": "RN1"
+      }
+    ],
+    "opposing_positions": [],
+    "opposed_traders_count": 0,
+    "small_opposing_interest_positions": [],
+    "is_consensus": true,
+    "trader_names": [
+      "RN1"
+    ]
+  },
+  {
+    "market_slug": "atp-fonseca-prizmic-2026-05-27",
+    "market_title": "Roland Garros ATP: Joao Fonseca vs Dino Prizmic",
+    "outcome": "Joao Fonseca",
+    "outcome_key": "joao fonseca",
+    "showcased_value": 25345.05,
+    "showcased_size": 39294.6499,
+    "weighted_avg_entry": 0.4705,
+    "traders_count": 1,
+    "unique_traders": [
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+    ],
+    "supporting_positions": [
+      {
+        "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+        "outcome": "Joao Fonseca",
+        "current_value": 25345.05,
+        "size": 39294.6499,
+        "average_price": 0.4705,
+        "trader_name": "RN1"
+      }
+    ],
+    "opposing_positions": [
+      {
+        "trader_address": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+        "outcome": "Dino Prizmic",
+        "current_value": 24850.0,
+        "size": 70000.0,
+        "average_price": 0.67,
+        "trader_name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465"
+      }
+    ],
+    "opposed_traders_count": 1,
+    "small_opposing_interest_positions": [
+      {
+        "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "outcome": "Dino Prizmic",
+        "current_value": 7668.24,
+        "size": 21600.6691,
+        "average_price": 0.5149,
+        "trader_name": "swisstony"
+      }
+    ],
+    "is_consensus": false,
+    "trader_names": [
+      "RN1"
+    ]
+  },
+  {
+    "market_slug": "mlb-phi-sd-2026-05-27",
+    "market_title": "Philadelphia Phillies vs. San Diego Padres",
+    "outcome": "San Diego Padres",
+    "outcome_key": "san diego padres",
+    "showcased_value": 25052.73,
+    "showcased_size": 56298.2799,
+    "weighted_avg_entry": 0.4,
+    "traders_count": 1,
+    "unique_traders": [
+      "0x9495425feeb0c250accb89275c97587011b19a27"
+    ],
+    "supporting_positions": [
+      {
+        "trader_address": "0x9495425feeb0c250accb89275c97587011b19a27",
+        "outcome": "San Diego Padres",
+        "current_value": 25052.73,
+        "size": 56298.2799,
+        "average_price": 0.4,
+        "trader_name": "LaBradfordSmith22"
+      }
+    ],
+    "opposing_positions": [],
+    "opposed_traders_count": 0,
+    "small_opposing_interest_positions": [],
+    "is_consensus": true,
+    "trader_names": [
+      "LaBradfordSmith22"
+    ]
+  },
+  {
+    "market_slug": "dota2-xtreme-tundra-2026-05-27",
+    "market_title": "Dota 2: Xtreme Gaming vs Tundra Esports (BO1) - BLAST Slam Group Stage",
+    "outcome": "Tundra Esports",
+    "outcome_key": "tundra esports",
+    "showcased_value": 19064.72,
+    "showcased_size": 19074.2544,
+    "weighted_avg_entry": 0.6202,
+    "traders_count": 1,
+    "unique_traders": [
+      "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+    ],
+    "supporting_positions": [
+      {
+        "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+        "outcome": "Tundra Esports",
+        "current_value": 19064.72,
+        "size": 19074.2544,
+        "average_price": 0.6202,
+        "trader_name": "GamblingIsAllYouNeed"
+      }
+    ],
+    "opposing_positions": [],
+    "opposed_traders_count": 0,
+    "small_opposing_interest_positions": [],
+    "is_consensus": true,
+    "trader_names": [
+      "GamblingIsAllYouNeed"
+    ]
+  }
+]

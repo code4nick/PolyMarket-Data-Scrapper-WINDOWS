@@ -1,0 +1,1788 @@
+{
+  "generated_at_utc": "2026-05-27T18:59:03.822834+00:00",
+  "settings": {
+    "data_api_base": "https://data-api.polymarket.com",
+    "gamma_api_base": "https://gamma-api.polymarket.com",
+    "top_n_traders": 20,
+    "require_active_leaderboard_traders": true,
+    "leaderboard_active_lookback_days": 30,
+    "leaderboard_fetch_limit": 60,
+    "leaderboard_category": "SPORTS",
+    "leaderboard_time_period": "ALL",
+    "leaderboard_order_by": "PNL",
+    "min_positions_per_market": 2,
+    "request_timeout_seconds": 20,
+    "sports_only_positions": true,
+    "strict_unanimous_only": true,
+    "consensus_material_opposition_min_usd": 0.0,
+    "consensus_hedge_max_opposing_ratio": 0.35,
+    "use_recent_activity_only": false,
+    "lookback_hours": 24,
+    "today_open_events_only": true,
+    "event_day_timezone": "America/New_York",
+    "large_bet_min_usd": 15000.0,
+    "large_bet_max_opposing_ratio": 2.5,
+    "large_bet_ratio_basis": "usd"
+  },
+  "top_traders_count": 20,
+  "leaderboard_inactive_skipped": [
+    {
+      "leaderboard_rank": 4,
+      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+      "name": "KeyTransporter",
+      "pnl": 5711459.802519929
+    },
+    {
+      "leaderboard_rank": 6,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "name": "gmanas",
+      "pnl": 4896587.371628344
+    },
+    {
+      "leaderboard_rank": 9,
+      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+      "name": "432614799197",
+      "pnl": 4526176.046413317
+    },
+    {
+      "leaderboard_rank": 13,
+      "address": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
+      "name": "reachingthesky",
+      "pnl": 3742635.156562068
+    },
+    {
+      "leaderboard_rank": 14,
+      "address": "0x019782cab5d844f02bafb71f512758be78579f3c",
+      "name": "majorexploiter",
+      "pnl": 3668541.581104434
+    },
+    {
+      "leaderboard_rank": 15,
+      "address": "0x16b29c50f2439faf627209b2ac0c7bbddaa8a881",
+      "name": "SeriouslySirius",
+      "pnl": 3648171.8070388893
+    },
+    {
+      "leaderboard_rank": 17,
+      "address": "0xee613b3fc183ee44f9da9c05f53e2da107e3debf",
+      "name": "sovereign2013",
+      "pnl": 3583998.1493746275
+    },
+    {
+      "leaderboard_rank": 19,
+      "address": "0x17db3fcd93ba12d38382a0cade24b200185c5f6d",
+      "name": "fengdubiying",
+      "pnl": 3167056.768515911
+    },
+    {
+      "leaderboard_rank": 21,
+      "address": "0x36a3f17401e395ef4cb1b7f42bcdb8ab8e15fafb",
+      "name": "gfjoigfsjoigsjoi",
+      "pnl": 2930573.327551775
+    },
+    {
+      "leaderboard_rank": 23,
+      "address": "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029",
+      "name": "primm",
+      "pnl": 2673262.1587221543
+    },
+    {
+      "leaderboard_rank": 25,
+      "address": "0x343d4466dc323b850e5249394894c7381d91456e",
+      "name": "tazcot",
+      "pnl": 2604547.667341
+    },
+    {
+      "leaderboard_rank": 27,
+      "address": "0xb786b8b6335e77dfad19928313e97753039cb18d",
+      "name": "0xb786b8",
+      "pnl": 2334034.9580809497
+    },
+    {
+      "leaderboard_rank": 28,
+      "address": "0xac44cb78be973ec7d91b69678c4bdfa7009afbd7",
+      "name": "blackwall",
+      "pnl": 2310857.9291402893
+    },
+    {
+      "leaderboard_rank": 29,
+      "address": "0x7fb7ad0d194d7123e711e7db6c9d418fac14e33d",
+      "name": "0x7fB7Ad0d194D7123e711e7db6C9D418fAc14E33d-1750343282446",
+      "pnl": 2282135.2612177674
+    },
+    {
+      "leaderboard_rank": 30,
+      "address": "0xa9878e59934ab507f9039bcb917c1bae0451141d",
+      "name": "ilovecircle",
+      "pnl": 2129927.3393769586
+    },
+    {
+      "leaderboard_rank": 31,
+      "address": "0xd25c72ac0928385610611c8148803dc717334d20",
+      "name": "FeatherLeather",
+      "pnl": 2097480.476399747
+    },
+    {
+      "leaderboard_rank": 35,
+      "address": "0x02227b8f5a9636e895607edd3185ed6ee5598ff7",
+      "name": "HorizonSplendidView",
+      "pnl": 1991767.5134605914
+    },
+    {
+      "leaderboard_rank": 36,
+      "address": "0x37c1874a60d348903594a96703e0507c518fc53a",
+      "name": "CemeterySun",
+      "pnl": 1927132.6771167656
+    }
+  ],
+  "failed_traders_count": 0,
+  "failed_traders": [],
+  "positions_count": 1209,
+  "sports_positions_count": 116,
+  "skipped_non_sports_positions": 1093,
+  "mode": "today_open_events",
+  "traders": [
+    {
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "name": "kch123",
+      "pnl": 11849161.395381715,
+      "volume": 291389413.900262,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "name": "RN1",
+      "pnl": 9098566.067494445,
+      "volume": 591611550.0926648,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "name": "swisstony",
+      "pnl": 8906043.545546709,
+      "volume": 822481162.6261692,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+      "name": "beachboy4",
+      "pnl": 5106229.653349215,
+      "volume": 221244376.061617,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "name": "GamblingIsAllYouNeed",
+      "pnl": 4766559.772611748,
+      "volume": 434442341.3357321,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+      "name": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
+      "pnl": 4539244.694743155,
+      "volume": 59666376.45593099,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+      "name": "surfandturf",
+      "pnl": 4321432.413532743,
+      "volume": 51087949.56143,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
+      "name": "0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461",
+      "pnl": 4079770.2450420875,
+      "volume": 475068911.9294589,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x9495425feeb0c250accb89275c97587011b19a27",
+      "name": "LaBradfordSmith22",
+      "pnl": 3947991.747231808,
+      "volume": 104736095.030385,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x14964aefa2cd7caff7878b3820a690a03c5aa429",
+      "name": "gmpm",
+      "pnl": 3642592.465651058,
+      "volume": 85056131.30223696,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+      "name": "DrPufferfish",
+      "pnl": 3462292.6597637357,
+      "volume": 247712507.94522902,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0xbddf61af533ff524d27154e589d2d7a81510c684",
+      "name": "Countryside",
+      "pnl": 2965565.972076063,
+      "volume": 306261138.91684204,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+      "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+      "pnl": 2764190.156517157,
+      "volume": 96386109.45497195,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0xee00ba338c59557141789b127927a55f5cc5cea1",
+      "name": "S-Works",
+      "pnl": 2608707.0824515983,
+      "volume": 182277588.00351596,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+      "name": "ferrariChampions2026",
+      "pnl": 2421629.980773764,
+      "volume": 202735281.04684702,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x0b9cae2b0dfe7a71c413e0604eaac1c352f87e44",
+      "name": "geniusMC",
+      "pnl": 2095007.1959610048,
+      "volume": 94360317.48084699,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0xea2b4224411e723499a803ce3f4758779fb31fc6",
+      "name": "frankfrankfrank",
+      "pnl": 2077136.1143059668,
+      "volume": 39831463.35500002,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x57cd939930fd119067ca9dc42b22b3e15708a0fb",
+      "name": "Supah9ga",
+      "pnl": 2014374.288521646,
+      "volume": 22410155.488025,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x03e8a544e97eeff5753bc1e90d46e5ef22af1697",
+      "name": "weflyhigh",
+      "pnl": 1925989.8809971542,
+      "volume": 121508306.75665498,
+      "win_rate": 0.0
+    },
+    {
+      "address": "0x7ea571c40408f340c1c8fc8eaacebab53c1bde7b",
+      "name": "Cannae",
+      "pnl": 1787879.4725027415,
+      "volume": 100600085.39570902,
+      "win_rate": 0.0
+    }
+  ],
+  "large_bet_plays": [
+    {
+      "market_slug": "wta-teichma-frech-2026-05-27",
+      "market_title": "Roland Garros WTA: Jil Teichmann vs Magdalena Frech",
+      "outcome": "Jil Teichmann",
+      "outcome_key": "jil teichmann",
+      "showcased_value": 135339.11,
+      "showcased_size": 135406.8086,
+      "weighted_avg_entry": 0.4249,
+      "traders_count": 3,
+      "unique_traders": [
+        "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+        "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+      ],
+      "supporting_positions": [
+        {
+          "trader_address": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "outcome": "Jil Teichmann",
+          "current_value": 92945.06,
+          "size": 92991.5574,
+          "average_price": 0.38,
+          "trader_name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465"
+        },
+        {
+          "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "outcome": "Jil Teichmann",
+          "current_value": 23486.36,
+          "size": 23498.1062,
+          "average_price": 0.4467,
+          "trader_name": "RN1"
+        },
+        {
+          "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "outcome": "Jil Teichmann",
+          "current_value": 18907.69,
+          "size": 18917.145,
+          "average_price": 0.6187,
+          "trader_name": "swisstony"
+        }
+      ],
+      "opposing_positions": [],
+      "opposed_traders_count": 0,
+      "small_opposing_interest_positions": [],
+      "is_consensus": true,
+      "trader_names": [
+        "RN1",
+        "swisstony",
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465"
+      ]
+    },
+    {
+      "market_slug": "atp-duckwor-jodar-2026-05-27",
+      "market_title": "Roland Garros ATP: James Duckworth vs Rafael Jodar",
+      "outcome": "Rafael Jodar",
+      "outcome_key": "rafael jodar",
+      "showcased_value": 38323.3,
+      "showcased_size": 38342.4761,
+      "weighted_avg_entry": 0.8983,
+      "traders_count": 1,
+      "unique_traders": [
+        "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+      ],
+      "supporting_positions": [
+        {
+          "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "outcome": "Rafael Jodar",
+          "current_value": 38323.3,
+          "size": 38342.4761,
+          "average_price": 0.8983,
+          "trader_name": "RN1"
+        }
+      ],
+      "opposing_positions": [],
+      "opposed_traders_count": 0,
+      "small_opposing_interest_positions": [],
+      "is_consensus": true,
+      "trader_names": [
+        "RN1"
+      ]
+    },
+    {
+      "market_slug": "mlb-stl-mil-2026-05-27",
+      "market_title": "St. Louis Cardinals vs. Milwaukee Brewers",
+      "outcome": "St. Louis Cardinals",
+      "outcome_key": "st. louis cardinals",
+      "showcased_value": 36712.83,
+      "showcased_size": 60682.3613,
+      "weighted_avg_entry": 0.4137,
+      "traders_count": 1,
+      "unique_traders": [
+        "0x9495425feeb0c250accb89275c97587011b19a27"
+      ],
+      "supporting_positions": [
+        {
+          "trader_address": "0x9495425feeb0c250accb89275c97587011b19a27",
+          "outcome": "St. Louis Cardinals",
+          "current_value": 36712.83,
+          "size": 60682.3613,
+          "average_price": 0.4137,
+          "trader_name": "LaBradfordSmith22"
+        }
+      ],
+      "opposing_positions": [],
+      "opposed_traders_count": 0,
+      "small_opposing_interest_positions": [],
+      "is_consensus": true,
+      "trader_names": [
+        "LaBradfordSmith22"
+      ]
+    },
+    {
+      "market_slug": "atp-basavar-michels-2026-05-27",
+      "market_title": "Roland Garros ATP: Nishesh Basavareddy vs Alex Michelsen",
+      "outcome": "Alex Michelsen",
+      "outcome_key": "alex michelsen",
+      "showcased_value": 33203.28,
+      "showcased_size": 33219.8937,
+      "weighted_avg_entry": 0.7373,
+      "traders_count": 1,
+      "unique_traders": [
+        "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+      ],
+      "supporting_positions": [
+        {
+          "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "outcome": "Alex Michelsen",
+          "current_value": 33203.28,
+          "size": 33219.8937,
+          "average_price": 0.7373,
+          "trader_name": "RN1"
+        }
+      ],
+      "opposing_positions": [],
+      "opposed_traders_count": 0,
+      "small_opposing_interest_positions": [],
+      "is_consensus": true,
+      "trader_names": [
+        "RN1"
+      ]
+    },
+    {
+      "market_slug": "atp-machac-zverev-2026-05-27",
+      "market_title": "Roland Garros ATP: Tomas Machac vs Alexander Zverev",
+      "outcome": "Alexander Zverev",
+      "outcome_key": "alexander zverev",
+      "showcased_value": 32310.79,
+      "showcased_size": 34191.31,
+      "weighted_avg_entry": 0.87,
+      "traders_count": 1,
+      "unique_traders": [
+        "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+      ],
+      "supporting_positions": [
+        {
+          "trader_address": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "outcome": "Alexander Zverev",
+          "current_value": 32310.79,
+          "size": 34191.31,
+          "average_price": 0.87,
+          "trader_name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465"
+        }
+      ],
+      "opposing_positions": [],
+      "opposed_traders_count": 0,
+      "small_opposing_interest_positions": [],
+      "is_consensus": true,
+      "trader_names": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465"
+      ]
+    },
+    {
+      "market_slug": "atp-ruud-medjedo-2026-05-27",
+      "market_title": "Roland Garros ATP: Casper Ruud vs Hamad Medjedovic",
+      "outcome": "Hamad Medjedovic",
+      "outcome_key": "hamad medjedovic",
+      "showcased_value": 31386.42,
+      "showcased_size": 110166.43,
+      "weighted_avg_entry": 0.287,
+      "traders_count": 1,
+      "unique_traders": [
+        "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+      ],
+      "supporting_positions": [
+        {
+          "trader_address": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "outcome": "Hamad Medjedovic",
+          "current_value": 31386.42,
+          "size": 110166.43,
+          "average_price": 0.287,
+          "trader_name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465"
+        }
+      ],
+      "opposing_positions": [],
+      "opposed_traders_count": 0,
+      "small_opposing_interest_positions": [],
+      "is_consensus": true,
+      "trader_names": [
+        "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465"
+      ]
+    },
+    {
+      "market_slug": "wta-paolini-sierra-2026-05-27",
+      "market_title": "Roland Garros WTA: Jasmine Paolini vs Solana Sierra",
+      "outcome": "Solana Sierra",
+      "outcome_key": "solana sierra",
+      "showcased_value": 25400.04,
+      "showcased_size": 25412.7484,
+      "weighted_avg_entry": 0.5937,
+      "traders_count": 1,
+      "unique_traders": [
+        "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+      ],
+      "supporting_positions": [
+        {
+          "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "outcome": "Solana Sierra",
+          "current_value": 25400.04,
+          "size": 25412.7484,
+          "average_price": 0.5937,
+          "trader_name": "RN1"
+        }
+      ],
+      "opposing_positions": [],
+      "opposed_traders_count": 0,
+      "small_opposing_interest_positions": [],
+      "is_consensus": true,
+      "trader_names": [
+        "RN1"
+      ]
+    },
+    {
+      "market_slug": "atp-fonseca-prizmic-2026-05-27",
+      "market_title": "Roland Garros ATP: Joao Fonseca vs Dino Prizmic",
+      "outcome": "Joao Fonseca",
+      "outcome_key": "joao fonseca",
+      "showcased_value": 25345.05,
+      "showcased_size": 39294.6499,
+      "weighted_avg_entry": 0.4705,
+      "traders_count": 1,
+      "unique_traders": [
+        "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+      ],
+      "supporting_positions": [
+        {
+          "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "outcome": "Joao Fonseca",
+          "current_value": 25345.05,
+          "size": 39294.6499,
+          "average_price": 0.4705,
+          "trader_name": "RN1"
+        }
+      ],
+      "opposing_positions": [
+        {
+          "trader_address": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "outcome": "Dino Prizmic",
+          "current_value": 24850.0,
+          "size": 70000.0,
+          "average_price": 0.67,
+          "trader_name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465"
+        }
+      ],
+      "opposed_traders_count": 1,
+      "small_opposing_interest_positions": [
+        {
+          "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "outcome": "Dino Prizmic",
+          "current_value": 7668.24,
+          "size": 21600.6691,
+          "average_price": 0.5149,
+          "trader_name": "swisstony"
+        }
+      ],
+      "is_consensus": false,
+      "trader_names": [
+        "RN1"
+      ]
+    },
+    {
+      "market_slug": "mlb-phi-sd-2026-05-27",
+      "market_title": "Philadelphia Phillies vs. San Diego Padres",
+      "outcome": "San Diego Padres",
+      "outcome_key": "san diego padres",
+      "showcased_value": 25052.73,
+      "showcased_size": 56298.2799,
+      "weighted_avg_entry": 0.4,
+      "traders_count": 1,
+      "unique_traders": [
+        "0x9495425feeb0c250accb89275c97587011b19a27"
+      ],
+      "supporting_positions": [
+        {
+          "trader_address": "0x9495425feeb0c250accb89275c97587011b19a27",
+          "outcome": "San Diego Padres",
+          "current_value": 25052.73,
+          "size": 56298.2799,
+          "average_price": 0.4,
+          "trader_name": "LaBradfordSmith22"
+        }
+      ],
+      "opposing_positions": [],
+      "opposed_traders_count": 0,
+      "small_opposing_interest_positions": [],
+      "is_consensus": true,
+      "trader_names": [
+        "LaBradfordSmith22"
+      ]
+    },
+    {
+      "market_slug": "dota2-xtreme-tundra-2026-05-27",
+      "market_title": "Dota 2: Xtreme Gaming vs Tundra Esports (BO1) - BLAST Slam Group Stage",
+      "outcome": "Tundra Esports",
+      "outcome_key": "tundra esports",
+      "showcased_value": 19064.72,
+      "showcased_size": 19074.2544,
+      "weighted_avg_entry": 0.6202,
+      "traders_count": 1,
+      "unique_traders": [
+        "0x507e52ef684ca2dd91f90a9d26d149dd3288beae"
+      ],
+      "supporting_positions": [
+        {
+          "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+          "outcome": "Tundra Esports",
+          "current_value": 19064.72,
+          "size": 19074.2544,
+          "average_price": 0.6202,
+          "trader_name": "GamblingIsAllYouNeed"
+        }
+      ],
+      "opposing_positions": [],
+      "opposed_traders_count": 0,
+      "small_opposing_interest_positions": [],
+      "is_consensus": true,
+      "trader_names": [
+        "GamblingIsAllYouNeed"
+      ]
+    }
+  ],
+  "sports_positions_today": [
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Bourg-en-Bresse vs. Monaco",
+      "market_slug": "bkfr1-bou-mon-2026-05-27",
+      "outcome": "Bourg-en-Bresse",
+      "size": 4481.8954,
+      "current_value": 3070.0983,
+      "average_price": 0.6613
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Bourg-en-Bresse vs. Monaco",
+      "market_slug": "bkfr1-bou-mon-2026-05-27",
+      "outcome": "Monaco",
+      "size": 1501.7682,
+      "current_value": 473.057,
+      "average_price": 0.31
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Counter-Strike: 9z vs Sharks (BO3) - Stake Ranked Episode 2 Playoffs",
+      "market_slug": "cs2-9z-shk-2026-05-27",
+      "outcome": "Sharks",
+      "size": 2667.61,
+      "current_value": 2040.7216,
+      "average_price": 0.2943
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Counter-Strike: ASTRAL vs ALGO Esports (BO3) - Thunderpick World Championship European Series #1 Group B",
+      "market_slug": "cs2-ast-algo1-2026-05-27",
+      "outcome": "ASTRAL",
+      "size": 675.62,
+      "current_value": 0.0,
+      "average_price": 0.1454
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Counter-Strike: ASTRAL vs ALGO Esports - Map 1 Winner",
+      "market_slug": "cs2-ast-algo1-2026-05-27-game1",
+      "outcome": "ALGO Esports",
+      "size": 1309.255,
+      "current_value": 1309.255,
+      "average_price": 0.5735
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Counter-Strike: ASTRAL vs ALGO Esports - Map 2 Winner",
+      "market_slug": "cs2-ast-algo1-2026-05-27-game2",
+      "outcome": "ALGO Esports",
+      "size": 563.265,
+      "current_value": 563.265,
+      "average_price": 0.7562
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Counter-Strike: ASTRAL vs ALGO Esports - Map 2 Winner",
+      "market_slug": "cs2-ast-algo1-2026-05-27-game2",
+      "outcome": "ASTRAL",
+      "size": 371.5,
+      "current_value": 0.0,
+      "average_price": 0.4717
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Counter-Strike: TDK vs Nemiga (BO3) - ESL Challenger League Europe Finals Playoffs",
+      "market_slug": "cs2-tdk-nemi1-2026-05-27",
+      "outcome": "TDK",
+      "size": 800.3984,
+      "current_value": 476.237,
+      "average_price": 0.6383
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Counter-Strike: TDK vs Nemiga - Map 1 Winner",
+      "market_slug": "cs2-tdk-nemi1-2026-05-27-game1",
+      "outcome": "TDK",
+      "size": 249.0,
+      "current_value": 248.8755,
+      "average_price": 0.5
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Counter-Strike: Young Ninjas vs Lilmix - Map 2 Winner",
+      "market_slug": "cs2-yn-lilmix-2026-05-27-game2",
+      "outcome": "Lilmix",
+      "size": 739.2727,
+      "current_value": 739.2727,
+      "average_price": 0.616
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Dota 2: Aurora vs Team Spirit (BO1) - BLAST Slam Group Stage",
+      "market_slug": "dota2-aur1-ts8-2026-05-27",
+      "outcome": "Team Spirit",
+      "size": 48059.9103,
+      "current_value": 0.0,
+      "average_price": 0.4646
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Dota 2: Aurora vs Team Spirit (BO1) - BLAST Slam Group Stage",
+      "market_slug": "dota2-aur1-ts8-2026-05-27",
+      "outcome": "Aurora",
+      "size": 6594.8587,
+      "current_value": 6594.8587,
+      "average_price": 0.7299
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Dota 2: LGD Gaming vs Team Liquid (BO1) - BLAST Slam Group Stage",
+      "market_slug": "dota2-lgd-liquid-2026-05-27",
+      "outcome": "LGD Gaming",
+      "size": 6108.9595,
+      "current_value": 3.0544,
+      "average_price": 0.3322
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Dota 2: LGD Gaming vs Team Liquid (BO1) - BLAST Slam Group Stage",
+      "market_slug": "dota2-lgd-liquid-2026-05-27",
+      "outcome": "Team Liquid",
+      "size": 5142.8501,
+      "current_value": 5140.2787,
+      "average_price": 0.7337
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Dota 2: Team Falcons vs Team Yandex (BO1) - BLAST Slam Group Stage",
+      "market_slug": "dota2-flc-ty-2026-05-27",
+      "outcome": "Team Yandex",
+      "size": 34134.8706,
+      "current_value": 0.0,
+      "average_price": 0.3755
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Dota 2: Xtreme Gaming vs Tundra Esports (BO1) - BLAST Slam Group Stage",
+      "market_slug": "dota2-xtreme-tundra-2026-05-27",
+      "outcome": "Tundra Esports",
+      "size": 19074.2544,
+      "current_value": 19064.7173,
+      "average_price": 0.6202
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Dota 2: Xtreme Gaming vs Tundra Esports (BO1) - BLAST Slam Group Stage",
+      "market_slug": "dota2-xtreme-tundra-2026-05-27",
+      "outcome": "Xtreme Gaming",
+      "size": 749.9999,
+      "current_value": 0.3749,
+      "average_price": 0.28
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Games Total: O/U 2.5",
+      "market_slug": "cs2-9z-shk-2026-05-27-total-games-2pt5",
+      "outcome": "Under",
+      "size": 852.3994,
+      "current_value": 511.4396,
+      "average_price": 0.4678
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Games Total: O/U 2.5",
+      "market_slug": "cs2-9z-shk-2026-05-27-total-games-2pt5",
+      "outcome": "Over",
+      "size": 375.1732,
+      "current_value": 150.0693,
+      "average_price": 0.4048
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Games Total: O/U 2.5",
+      "market_slug": "cs2-faze-all-2026-05-27-total-games-2pt5",
+      "outcome": "Over",
+      "size": 78.8199,
+      "current_value": 0.0,
+      "average_price": 0.01
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Kosice: Lukas Pokorny vs Martin Krumich",
+      "market_slug": "atp-pokorny-krumich-2026-05-27",
+      "outcome": "Martin Krumich",
+      "size": 2222.8526,
+      "current_value": 2221.7412,
+      "average_price": 0.8275
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Le Mans vs. Nanterre",
+      "market_slug": "bkfr1-le-nan2-2026-05-27",
+      "outcome": "Nanterre",
+      "size": 3575.9951,
+      "current_value": 2342.2768,
+      "average_price": 0.4898
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Le Mans vs. Nanterre",
+      "market_slug": "bkfr1-le-nan2-2026-05-27",
+      "outcome": "Le Mans",
+      "size": 2253.4413,
+      "current_value": 777.2119,
+      "average_price": 0.3954
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Little Rock: Tyler Zink vs Ronald Hohmann",
+      "market_slug": "atp-zink-hohmann-2026-05-27",
+      "outcome": "Ronald Hohmann",
+      "size": 2726.4201,
+      "current_value": 1.3632,
+      "average_price": 0.1748
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "LoL: BIG vs G2 NORD (BO5) - Prime League 1st Division Playoffs",
+      "market_slug": "lol-big1-g2nord-2026-05-27",
+      "outcome": "G2 NORD",
+      "size": 632.03,
+      "current_value": 628.8698,
+      "average_price": 0.2155
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "LoL: BIG vs G2 NORD - Game 2 Winner",
+      "market_slug": "lol-big1-g2nord-2026-05-27-game2",
+      "outcome": "G2 NORD",
+      "size": 935.6451,
+      "current_value": 935.1773,
+      "average_price": 0.38
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "LoL: BIG vs G2 NORD - Game 3 Winner",
+      "market_slug": "lol-big1-g2nord-2026-05-27-game3",
+      "outcome": "G2 NORD",
+      "size": 151.9531,
+      "current_value": 151.8771,
+      "average_price": 0.3643
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Los Angeles Angels vs. Detroit Tigers: O/U 4.5",
+      "market_slug": "mlb-laa-det-2026-05-27-total-4pt5",
+      "outcome": "Over",
+      "size": 1362.7368,
+      "current_value": 1124.2579,
+      "average_price": 0.8295
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Map Handicap: FaZe (-1.5) vs Alliance (+1.5)",
+      "market_slug": "cs2-faze-all-2026-05-27-map-handicap-away-1pt5",
+      "outcome": "Alliance",
+      "size": 5315.9067,
+      "current_value": 0.0,
+      "average_price": 0.2274
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Map Handicap: FaZe (-1.5) vs Alliance (+1.5)",
+      "market_slug": "cs2-faze-all-2026-05-27-map-handicap-away-1pt5",
+      "outcome": "FaZe",
+      "size": 1298.5985,
+      "current_value": 1298.5985,
+      "average_price": 0.386
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Miami Marlins vs. Toronto Blue Jays",
+      "market_slug": "mlb-mia-tor-2026-05-27",
+      "outcome": "Toronto Blue Jays",
+      "size": 3024.55,
+      "current_value": 1255.1882,
+      "average_price": 0.3931
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Miami Marlins vs. Toronto Blue Jays",
+      "market_slug": "mlb-mia-tor-2026-05-27",
+      "outcome": "Miami Marlins",
+      "size": 1968.2924,
+      "current_value": 1151.451,
+      "average_price": 0.552
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Miami Marlins vs. Toronto Blue Jays: O/U 7.5",
+      "market_slug": "mlb-mia-tor-2026-05-27-total-7pt5",
+      "outcome": "Over",
+      "size": 1328.0,
+      "current_value": 239.04,
+      "average_price": 0.4667
+    },
+    {
+      "trader_name": "LaBradfordSmith22",
+      "trader_address": "0x9495425feeb0c250accb89275c97587011b19a27",
+      "market_title": "Philadelphia Phillies vs. San Diego Padres",
+      "market_slug": "mlb-phi-sd-2026-05-27",
+      "outcome": "San Diego Padres",
+      "size": 56298.2799,
+      "current_value": 25052.7345,
+      "average_price": 0.4
+    },
+    {
+      "trader_name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+      "trader_address": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+      "market_title": "Roland Garros ATP: Casper Ruud vs Hamad Medjedovic",
+      "market_slug": "atp-ruud-medjedo-2026-05-27",
+      "outcome": "Hamad Medjedovic",
+      "size": 110166.43,
+      "current_value": 31386.4159,
+      "average_price": 0.287
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Roland Garros ATP: Casper Ruud vs Hamad Medjedovic",
+      "market_slug": "atp-ruud-medjedo-2026-05-27",
+      "outcome": "Hamad Medjedovic",
+      "size": 34235.9363,
+      "current_value": 9753.8182,
+      "average_price": 0.2841
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros ATP: Casper Ruud vs Hamad Medjedovic",
+      "market_slug": "atp-ruud-medjedo-2026-05-27",
+      "outcome": "Hamad Medjedovic",
+      "size": 6284.6164,
+      "current_value": 1790.4872,
+      "average_price": 0.283
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Roland Garros ATP: James Duckworth vs Rafael Jodar",
+      "market_slug": "atp-duckwor-jodar-2026-05-27",
+      "outcome": "James Duckworth",
+      "size": 39672.6418,
+      "current_value": 19.8363,
+      "average_price": 0.1258
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Roland Garros ATP: James Duckworth vs Rafael Jodar",
+      "market_slug": "atp-duckwor-jodar-2026-05-27",
+      "outcome": "Rafael Jodar",
+      "size": 38342.4761,
+      "current_value": 38323.3049,
+      "average_price": 0.8983
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros ATP: James Duckworth vs Rafael Jodar",
+      "market_slug": "atp-duckwor-jodar-2026-05-27",
+      "outcome": "James Duckworth",
+      "size": 14040.2746,
+      "current_value": 7.0201,
+      "average_price": 0.106
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros ATP: James Duckworth vs Rafael Jodar",
+      "market_slug": "atp-duckwor-jodar-2026-05-27",
+      "outcome": "Rafael Jodar",
+      "size": 3807.0914,
+      "current_value": 3805.1879,
+      "average_price": 0.9355
+    },
+    {
+      "trader_name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+      "trader_address": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+      "market_title": "Roland Garros ATP: Joao Fonseca vs Dino Prizmic",
+      "market_slug": "atp-fonseca-prizmic-2026-05-27",
+      "outcome": "Dino Prizmic",
+      "size": 70000.0,
+      "current_value": 24850.0,
+      "average_price": 0.67
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Roland Garros ATP: Joao Fonseca vs Dino Prizmic",
+      "market_slug": "atp-fonseca-prizmic-2026-05-27",
+      "outcome": "Dino Prizmic",
+      "size": 44904.2449,
+      "current_value": 15941.0069,
+      "average_price": 0.6171
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Roland Garros ATP: Joao Fonseca vs Dino Prizmic",
+      "market_slug": "atp-fonseca-prizmic-2026-05-27",
+      "outcome": "Joao Fonseca",
+      "size": 39294.6499,
+      "current_value": 25345.0492,
+      "average_price": 0.4705
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros ATP: Joao Fonseca vs Dino Prizmic",
+      "market_slug": "atp-fonseca-prizmic-2026-05-27",
+      "outcome": "Dino Prizmic",
+      "size": 21600.6691,
+      "current_value": 7668.2375,
+      "average_price": 0.5149
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros ATP: Joao Fonseca vs Dino Prizmic",
+      "market_slug": "atp-fonseca-prizmic-2026-05-27",
+      "outcome": "Joao Fonseca",
+      "size": 4173.31,
+      "current_value": 2691.7849,
+      "average_price": 0.675
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros ATP: Lorenzo Sonego vs Tommy Paul",
+      "market_slug": "atp-sonego-paul-2026-05-27",
+      "outcome": "Lorenzo Sonego",
+      "size": 7203.8728,
+      "current_value": 540.2904,
+      "average_price": 0.0878
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros ATP: Lorenzo Sonego vs Tommy Paul",
+      "market_slug": "atp-sonego-paul-2026-05-27",
+      "outcome": "Tommy Paul",
+      "size": 3484.1329,
+      "current_value": 3222.823,
+      "average_price": 0.8513
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Roland Garros ATP: Nishesh Basavareddy vs Alex Michelsen",
+      "market_slug": "atp-basavar-michels-2026-05-27",
+      "outcome": "Alex Michelsen",
+      "size": 33219.8937,
+      "current_value": 33203.2838,
+      "average_price": 0.7373
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros ATP: Nishesh Basavareddy vs Alex Michelsen",
+      "market_slug": "atp-basavar-michels-2026-05-27",
+      "outcome": "Alex Michelsen",
+      "size": 7024.4446,
+      "current_value": 7020.9324,
+      "average_price": 0.8029
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros ATP: Nishesh Basavareddy vs Alex Michelsen",
+      "market_slug": "atp-basavar-michels-2026-05-27",
+      "outcome": "Nishesh Basavareddy",
+      "size": 4342.3223,
+      "current_value": 2.1711,
+      "average_price": 0.2529
+    },
+    {
+      "trader_name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+      "trader_address": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+      "market_title": "Roland Garros ATP: Tomas Machac vs Alexander Zverev",
+      "market_slug": "atp-machac-zverev-2026-05-27",
+      "outcome": "Alexander Zverev",
+      "size": 34191.31,
+      "current_value": 32310.7879,
+      "average_price": 0.87
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros ATP: Tomas Machac vs Alexander Zverev",
+      "market_slug": "atp-machac-zverev-2026-05-27",
+      "outcome": "Alexander Zverev",
+      "size": 13530.2733,
+      "current_value": 12786.1082,
+      "average_price": 0.887
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros ATP: Tomas Machac vs Alexander Zverev",
+      "market_slug": "atp-machac-zverev-2026-05-27",
+      "outcome": "Tomas Machac",
+      "size": 6232.2842,
+      "current_value": 342.7756,
+      "average_price": 0.1062
+    },
+    {
+      "trader_name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+      "trader_address": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+      "market_title": "Roland Garros ATP: Ugo Humbert vs Quentin Halys",
+      "market_slug": "atp-humbert-halys-2026-05-27",
+      "outcome": "Ugo Humbert",
+      "size": 111630.96,
+      "current_value": 55.8154,
+      "average_price": 0.316
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Roland Garros ATP: Ugo Humbert vs Quentin Halys",
+      "market_slug": "atp-humbert-halys-2026-05-27",
+      "outcome": "Quentin Halys",
+      "size": 25530.5215,
+      "current_value": 25517.7562,
+      "average_price": 0.6035
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros ATP: Ugo Humbert vs Quentin Halys",
+      "market_slug": "atp-humbert-halys-2026-05-27",
+      "outcome": "Quentin Halys",
+      "size": 6016.6982,
+      "current_value": 6013.6898,
+      "average_price": 0.6478
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros ATP: Ugo Humbert vs Quentin Halys",
+      "market_slug": "atp-humbert-halys-2026-05-27",
+      "outcome": "Ugo Humbert",
+      "size": 2094.89,
+      "current_value": 1.0474,
+      "average_price": 0.1256
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Roland Garros ATP: Valentin Royer vs Novak Djokovic",
+      "market_slug": "atp-royer-djokovi-2026-05-27",
+      "outcome": "Novak Djokovic",
+      "size": 47064.9766,
+      "current_value": 47041.4441,
+      "average_price": 0.9099
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Roland Garros ATP: Valentin Royer vs Novak Djokovic",
+      "market_slug": "atp-royer-djokovi-2026-05-27",
+      "outcome": "Valentin Royer",
+      "size": 28637.1195,
+      "current_value": 14.3185,
+      "average_price": 0.0871
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros ATP: Valentin Royer vs Novak Djokovic",
+      "market_slug": "atp-royer-djokovi-2026-05-27",
+      "outcome": "Valentin Royer",
+      "size": 50114.4659,
+      "current_value": 25.0572,
+      "average_price": 0.029
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros WTA: Eva Lys vs Sorana Cirstea",
+      "market_slug": "wta-lys-cirstea-2026-05-27",
+      "outcome": "Sorana Cirstea",
+      "size": 5298.25,
+      "current_value": 5295.6009,
+      "average_price": 0.7759
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros WTA: Eva Lys vs Sorana Cirstea",
+      "market_slug": "wta-lys-cirstea-2026-05-27",
+      "outcome": "Eva Lys",
+      "size": 1832.1212,
+      "current_value": 0.916,
+      "average_price": 0.2359
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Roland Garros WTA: Jasmine Paolini vs Solana Sierra",
+      "market_slug": "wta-paolini-sierra-2026-05-27",
+      "outcome": "Jasmine Paolini",
+      "size": 29617.5116,
+      "current_value": 14.8087,
+      "average_price": 0.3364
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Roland Garros WTA: Jasmine Paolini vs Solana Sierra",
+      "market_slug": "wta-paolini-sierra-2026-05-27",
+      "outcome": "Solana Sierra",
+      "size": 25412.7484,
+      "current_value": 25400.0421,
+      "average_price": 0.5937
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros WTA: Jasmine Paolini vs Solana Sierra",
+      "market_slug": "wta-paolini-sierra-2026-05-27",
+      "outcome": "Solana Sierra",
+      "size": 9066.6445,
+      "current_value": 9062.1111,
+      "average_price": 0.6047
+    },
+    {
+      "trader_name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+      "trader_address": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+      "market_title": "Roland Garros WTA: Jil Teichmann vs Magdalena Frech",
+      "market_slug": "wta-teichma-frech-2026-05-27",
+      "outcome": "Jil Teichmann",
+      "size": 92991.5574,
+      "current_value": 92945.0616,
+      "average_price": 0.38
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Roland Garros WTA: Jil Teichmann vs Magdalena Frech",
+      "market_slug": "wta-teichma-frech-2026-05-27",
+      "outcome": "Jil Teichmann",
+      "size": 23498.1062,
+      "current_value": 23486.3571,
+      "average_price": 0.4467
+    },
+    {
+      "trader_name": "RN1",
+      "trader_address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "market_title": "Roland Garros WTA: Jil Teichmann vs Magdalena Frech",
+      "market_slug": "wta-teichma-frech-2026-05-27",
+      "outcome": "Magdalena Frech",
+      "size": 21160.5654,
+      "current_value": 10.5802,
+      "average_price": 0.5529
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros WTA: Jil Teichmann vs Magdalena Frech",
+      "market_slug": "wta-teichma-frech-2026-05-27",
+      "outcome": "Jil Teichmann",
+      "size": 18917.145,
+      "current_value": 18907.6864,
+      "average_price": 0.6187
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros WTA: Jil Teichmann vs Magdalena Frech",
+      "market_slug": "wta-teichma-frech-2026-05-27",
+      "outcome": "Magdalena Frech",
+      "size": 3921.0789,
+      "current_value": 1.9605,
+      "average_price": 0.4385
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros WTA: Mirra Andreeva vs Marina Bassols Ribera",
+      "market_slug": "wta-andreev-ribera-2026-05-27",
+      "outcome": "Marina Bassols Ribera",
+      "size": 20921.421,
+      "current_value": 4498.1055,
+      "average_price": 0.1587
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Roland Garros WTA: Mirra Andreeva vs Marina Bassols Ribera",
+      "market_slug": "wta-andreev-ribera-2026-05-27",
+      "outcome": "Mirra Andreeva",
+      "size": 1565.78,
+      "current_value": 1229.1373,
+      "average_price": 0.8725
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Spread: Cleveland Guardians (-2.5)",
+      "market_slug": "mlb-wsh-cle-2026-05-27-spread-home-2pt5",
+      "outcome": "Washington Nationals",
+      "size": 1536.0,
+      "current_value": 752.64,
+      "average_price": 0.4922
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Spread: Cleveland Guardians (-3.5)",
+      "market_slug": "mlb-wsh-cle-2026-05-27-spread-home-3pt5",
+      "outcome": "Cleveland Guardians",
+      "size": 1666.85,
+      "current_value": 425.0467,
+      "average_price": 0.2546
+    },
+    {
+      "trader_name": "weflyhigh",
+      "trader_address": "0x03e8a544e97eeff5753bc1e90d46e5ef22af1697",
+      "market_title": "Spread: Hurricanes (-1.5)",
+      "market_slug": "nhl-car-mon-2026-05-27-spread-away-1pt5",
+      "outcome": "Hurricanes",
+      "size": 21302.0776,
+      "current_value": 7562.2375,
+      "average_price": 0.35
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Spread: Miami Marlins (-1.5)",
+      "market_slug": "mlb-mia-tor-2026-05-27-spread-away-1pt5",
+      "outcome": "Toronto Blue Jays",
+      "size": 3219.0,
+      "current_value": 1995.78,
+      "average_price": 0.5628
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Spread: Milwaukee Brewers (-1.5)",
+      "market_slug": "mlb-stl-mil-2026-05-27-spread-home-1pt5",
+      "outcome": "Milwaukee Brewers",
+      "size": 2062.8838,
+      "current_value": 391.9479,
+      "average_price": 0.3961
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Spread: Milwaukee Brewers (-1.5)",
+      "market_slug": "mlb-stl-mil-2026-05-27-spread-home-1pt5",
+      "outcome": "St. Louis Cardinals",
+      "size": 2037.9008,
+      "current_value": 1650.6996,
+      "average_price": 0.6022
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Spread: San Diego Padres (-1.5)",
+      "market_slug": "mlb-phi-sd-2026-05-27-spread-home-1pt5",
+      "outcome": "San Diego Padres",
+      "size": 2050.0,
+      "current_value": 543.25,
+      "average_price": 0.27
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Spread: San Francisco Giants (-1.5)",
+      "market_slug": "mlb-ari-sf-2026-05-27-spread-home-1pt5",
+      "outcome": "San Francisco Giants",
+      "size": 6034.9436,
+      "current_value": 1840.6578,
+      "average_price": 0.3079
+    },
+    {
+      "trader_name": "LaBradfordSmith22",
+      "trader_address": "0x9495425feeb0c250accb89275c97587011b19a27",
+      "market_title": "St. Louis Cardinals vs. Milwaukee Brewers",
+      "market_slug": "mlb-stl-mil-2026-05-27",
+      "outcome": "St. Louis Cardinals",
+      "size": 60682.3613,
+      "current_value": 36712.8285,
+      "average_price": 0.4137
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "St. Louis Cardinals vs. Milwaukee Brewers",
+      "market_slug": "mlb-stl-mil-2026-05-27",
+      "outcome": "St. Louis Cardinals",
+      "size": 2480.7879,
+      "current_value": 1500.8767,
+      "average_price": 0.3509
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "St. Louis Cardinals vs. Milwaukee Brewers",
+      "market_slug": "mlb-stl-mil-2026-05-27",
+      "outcome": "Milwaukee Brewers",
+      "size": 1252.2894,
+      "current_value": 494.6543,
+      "average_price": 0.6047
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Vicenza: Lukas Neumayer vs Tristan Boyer",
+      "market_slug": "atp-neumaye-boyer-2026-05-27",
+      "outcome": "Tristan Boyer",
+      "size": 4069.9693,
+      "current_value": 2.0349,
+      "average_price": 0.1012
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Vicenza: Lukas Neumayer vs Tristan Boyer",
+      "market_slug": "atp-neumaye-boyer-2026-05-27",
+      "outcome": "Lukas Neumayer",
+      "size": 2871.8315,
+      "current_value": 2870.3956,
+      "average_price": 0.849
+    },
+    {
+      "trader_name": "ferrariChampions2026",
+      "trader_address": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+      "market_title": "Washington Nationals vs. Cleveland Guardians",
+      "market_slug": "mlb-wsh-cle-2026-05-27",
+      "outcome": "Washington Nationals",
+      "size": 93912.1521,
+      "current_value": 7982.5329,
+      "average_price": 0.3667
+    },
+    {
+      "trader_name": "LaBradfordSmith22",
+      "trader_address": "0x9495425feeb0c250accb89275c97587011b19a27",
+      "market_title": "Washington Nationals vs. Cleveland Guardians",
+      "market_slug": "mlb-wsh-cle-2026-05-27",
+      "outcome": "Washington Nationals",
+      "size": 70565.4331,
+      "current_value": 5998.0618,
+      "average_price": 0.37
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Washington Nationals vs. Cleveland Guardians",
+      "market_slug": "mlb-wsh-cle-2026-05-27",
+      "outcome": "Washington Nationals",
+      "size": 5639.8053,
+      "current_value": 479.3834,
+      "average_price": 0.3217
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Washington Nationals vs. Cleveland Guardians",
+      "market_slug": "mlb-wsh-cle-2026-05-27",
+      "outcome": "Cleveland Guardians",
+      "size": 1422.4647,
+      "current_value": 1301.5552,
+      "average_price": 0.7124
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Academia Puerto Cabello win on 2026-05-27?",
+      "market_slug": "sud-cam-apc-2026-05-27-apc",
+      "outcome": "Yes",
+      "size": 3052.56,
+      "current_value": 198.4164,
+      "average_price": 0.0581
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Academia Puerto Cabello win on 2026-05-27?",
+      "market_slug": "sud-cam-apc-2026-05-27-apc",
+      "outcome": "No",
+      "size": 104.06,
+      "current_value": 97.2961,
+      "average_price": 0.92
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will CA Mineiro vs. Academia Puerto Cabello end in a draw?",
+      "market_slug": "sud-cam-apc-2026-05-27-draw",
+      "outcome": "No",
+      "size": 144.6111,
+      "current_value": 120.7502,
+      "average_price": 0.82
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will CA Mineiro win on 2026-05-27?",
+      "market_slug": "sud-cam-apc-2026-05-27-cam",
+      "outcome": "Yes",
+      "size": 828.0991,
+      "current_value": 633.4958,
+      "average_price": 0.7539
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will CA Rosario Central win on 2026-05-27?",
+      "market_slug": "lib-ind1-ros-2026-05-27-ros",
+      "outcome": "No",
+      "size": 246.2405,
+      "current_value": 183.4492,
+      "average_price": 0.7464
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will CA Rosario Central win on 2026-05-27?",
+      "market_slug": "lib-ind1-ros-2026-05-27-ros",
+      "outcome": "Yes",
+      "size": 83.4202,
+      "current_value": 21.2721,
+      "average_price": 0.2224
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Club Libertad vs. Universidad Central de Venezuela FC end in a draw?",
+      "market_slug": "lib-lib-ucv-2026-05-27-draw",
+      "outcome": "No",
+      "size": 153.0995,
+      "current_value": 123.2451,
+      "average_price": 0.7982
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Club Libertad win on 2026-05-27?",
+      "market_slug": "lib-lib-ucv-2026-05-27-lib",
+      "outcome": "Yes",
+      "size": 355.7658,
+      "current_value": 240.1419,
+      "average_price": 0.661
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Club Olimpia vs. Audax CS Italiano end in a draw?",
+      "market_slug": "sud-clo-aud-2026-05-27-draw",
+      "outcome": "Yes",
+      "size": 316.4062,
+      "current_value": 74.3554,
+      "average_price": 0.22
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Club Olimpia vs. Audax CS Italiano end in a draw?",
+      "market_slug": "sud-clo-aud-2026-05-27-draw",
+      "outcome": "No",
+      "size": 114.1666,
+      "current_value": 87.3374,
+      "average_price": 0.76
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Club Olimpia win on 2026-05-27?",
+      "market_slug": "sud-clo-aud-2026-05-27-clo",
+      "outcome": "Yes",
+      "size": 99.2424,
+      "current_value": 61.034,
+      "average_price": 0.59
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Crystal Palace FC vs. Rayo Vallecano de Madrid end in a draw?",
+      "market_slug": "col-cry-ray-2026-05-27-draw",
+      "outcome": "No",
+      "size": 999.0,
+      "current_value": 694.2051,
+      "average_price": 0.68
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Will Crystal Palace FC vs. Rayo Vallecano de Madrid end in a draw?",
+      "market_slug": "col-cry-ray-2026-05-27-draw",
+      "outcome": "No",
+      "size": 6143.0,
+      "current_value": 4268.7707,
+      "average_price": 0.6899
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Crystal Palace FC win on 2026-05-27?",
+      "market_slug": "col-cry-ray-2026-05-27-cry",
+      "outcome": "No",
+      "size": 993.9631,
+      "current_value": 541.7099,
+      "average_price": 0.53
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Will Crystal Palace FC win on 2026-05-27?",
+      "market_slug": "col-cry-ray-2026-05-27-cry",
+      "outcome": "No",
+      "size": 13457.6493,
+      "current_value": 7334.4188,
+      "average_price": 0.5335
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will CS Cienciano vs. CA Juventud end in a draw?",
+      "market_slug": "sud-cie-juv-2026-05-27-draw",
+      "outcome": "No",
+      "size": 78.3333,
+      "current_value": 61.4916,
+      "average_price": 0.76
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will CS Cienciano win on 2026-05-27?",
+      "market_slug": "sud-cie-juv-2026-05-27-cie",
+      "outcome": "No",
+      "size": 1048.0,
+      "current_value": 361.4552,
+      "average_price": 0.38
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will CS Cienciano win on 2026-05-27?",
+      "market_slug": "sud-cie-juv-2026-05-27-cie",
+      "outcome": "Yes",
+      "size": 168.595,
+      "current_value": 110.4297,
+      "average_price": 0.6
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Fluminense FC vs. Deportivo La Guaira FC end in a draw?",
+      "market_slug": "lib-flu-gua1-2026-05-27-draw",
+      "outcome": "No",
+      "size": 231.2727,
+      "current_value": 206.989,
+      "average_price": 0.89
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Fluminense FC win on 2026-05-27?",
+      "market_slug": "lib-flu-gua1-2026-05-27-flu",
+      "outcome": "Yes",
+      "size": 111.7647,
+      "current_value": 93.3235,
+      "average_price": 0.83
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Independiente del Valle win on 2026-05-27?",
+      "market_slug": "lib-ind1-ros-2026-05-27-ind1",
+      "outcome": "Yes",
+      "size": 192.3888,
+      "current_value": 83.6891,
+      "average_price": 0.4317
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Independiente del Valle win on 2026-05-27?",
+      "market_slug": "lib-ind1-ros-2026-05-27-ind1",
+      "outcome": "No",
+      "size": 79.2868,
+      "current_value": 44.7891,
+      "average_price": 0.5085
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Rayo Vallecano de Madrid win on 2026-05-27?",
+      "market_slug": "col-cry-ray-2026-05-27-ray",
+      "outcome": "No",
+      "size": 1027.0,
+      "current_value": 775.385,
+      "average_price": 0.75
+    },
+    {
+      "trader_name": "swisstony",
+      "trader_address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "market_title": "Will Rayo Vallecano de Madrid win on 2026-05-27?",
+      "market_slug": "col-cry-ray-2026-05-27-ray",
+      "outcome": "No",
+      "size": 7174.7491,
+      "current_value": 5416.9355,
+      "average_price": 0.7527
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Red Bull Bragantino win on 2026-05-27?",
+      "market_slug": "sud-bra-car-2026-05-27-bra",
+      "outcome": "Yes",
+      "size": 191.8822,
+      "current_value": 141.0334,
+      "average_price": 0.73
+    },
+    {
+      "trader_name": "GamblingIsAllYouNeed",
+      "trader_address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "market_title": "Will Universidad Central de Venezuela FC win on 2026-05-27?",
+      "market_slug": "lib-lib-ucv-2026-05-27-ucv",
+      "outcome": "No",
+      "size": 249.4575,
+      "current_value": 218.2753,
+      "average_price": 0.8684
+    }
+  ]
+}
