@@ -1,2 +1,0 @@
-"""Polymarket consensus tracker package."""
-
